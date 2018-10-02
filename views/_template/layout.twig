@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>GREATRON</title>
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/iziModal.css">
+
+<link rel="stylesheet" href="css/module.css">
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript" src="http://momentjs.com/downloads/moment.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/iziModal.min.js"></script>
+
+<script src="js/ui.js"></script>
+
+
+<script>
+	
+
+	$(function(){
+		 $("#modal-search-site").iziModal({
+		 	  title: '搜尋本站',
+			  width: 900,
+			  radius: 0,
+			  overlayColor: 'rgba(0, 0, 0, 0.9)',
+			  closeOnEscape: true,
+		      closeButton: true,
+			});
+	})		
+
+
+	
+
+	// $(function(){
+	//  $(".iziModal_search").iziModal({
+	//  	  title: '',
+	// 	  width: 600,
+	// 	  radius: 0,
+	// 	  overlayColor: 'rgba(0, 0, 0, 0.9)',
+	// 	  closeOnEscape: true,
+ //          closeButton: true,
+	// 	});
+	// })
+
+
+
+
+
+
+</script>
+
+</head>
+<body>
+
+
+<div class="header_wrapper">
+	<header>
+
+		<!-- logo -->
+		<div class="logo"></div>
+
+
+		 <!-- deskmenu -->
+		<div class="deskmenu">
+		<ul>
+			<li>
+				<a href="index.html">HOME</a> 
+				<div class="b_line"></div>
+			</li>
+
+			<li>
+				<a href="product_list.html">PRODUCTS</a>
+				<div class="b_line"></div>
+				<ul class="dropdown ">
+					<li><a href="#">DESK TOP</a></li>
+					<li><a href="#">WALL PLUG</a></li>
+					<li><a href="#">USB CHARGER</a></li>
+					<li><a href="#">WIRELESS </a></li>
+				</ul>
+		
+			</li>
+			<li><a href="about_us.html">ABOUT US</a>
+				<div class="b_line"></div>
+			</li>
+			<li><a href="contact_us.html">CONTACT US</a>
+				<div class="b_line"></div>
+			</li>
+			
+			<li><a href="" class="search_site trigger-custom" data-iziModal-open="#modal-search-site"><i class="fas fa-search"></i></a></li>
+			<li><a href=""><i class="far fa-envelope"></i></a></li>
+		</ul>
+	</div>
+
+
+
+
+		<!-- hamburg -->
+		<div class="hamburg">
+			<span class="aaa"></span>
+			<span class="bbb"></span>
+			<span class="ccc"></span>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="" class="m-first">HOME</a></li>
+				<li><a href="" class="m-first">PRODUCTS</a></li>
+				<li><a href="" class="m-first">ABOUT US</a></li>
+				<li><a href="" class="m-first">CONTACT US</a></li>
+				<li><a href="" class="m-first"><i class="fas fa-search"></i></a></li>
+				<li><a href="" class="m-first"><i class="far fa-envelope"></i></a></li>
+			</ul>
+			
+		</div>
+	</header>
+</div>
+
+
+
+<div id="modal-search-site" class="iziModal_search">
+	<div class="simple-search">
+	   
+	    <div class="search_area">
+	        <input type="text" placeholder="請輸入查詢值"> <a href="" class="submit">查詢</a>
+	    </div>
+	   
+	</div>
+</div>
+
+
+
+{% block page %}{% endblock %}
+
+
+
+
+<div class="footer_wrapper">
+	<footer>
+		<div class="copyright">
+			<!-- <div class="footer_link">
+				<a href="index.html">HOME</a>
+				<a href="product_list.html">PRODUCTS</a>
+				<a href="about_us.html">ABOUT US</a>
+				<a href="contact_us.html">CONTACT US</a>
+				<a href=""><i class="fas fa-search"></i></a>
+			</div> -->
+
+			
+			
+			<p>Copyright © 2017 Greatron Enterprise Co., Ltd All rights reserved.</p>
+
+
+		</div>
+		
+
+	</footer>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

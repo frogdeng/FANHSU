@@ -1,0 +1,204 @@
+@import "bourbon";
+@import "susy";
+@import _map.scss
+
+
+// shorthand
+$desktop: 12 (70px 30px) split
+$pad: 6 (80px 40px) split
+
+$w_desktop: 12 split
+$w_pad: 6 split
+
+$breakpoint_desktop: 891px
+$breakpoint_pad: 0 890px
+
+
+$susy: (debug: (image: hide))
+
+
+$green: #7ED321
+$deep-green: #5AB331
+
+
+.inex_des
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		padding: 0 20px
+		margin-top: 90px
+		
+		h5
+			font-size: 30px
+			text-align: center
+			margin-bottom: 20px
+			font-weight: 700
+			color: #555
+		p 
+			font-size: 18px
+			color: #8C8C8C
+
+		.g_line
+			width: 80px
+			height: 6px
+			margin: 30px auto
+			margin-bottom: 80px
+			background: $green
+
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 0 100px
+		margin-top: 90px
+		
+		h5
+			font-size: 30px
+			text-align: center
+			margin-bottom: 20px
+			font-weight: 700
+			color: #555
+		p 
+			font-size: 18px
+			color: #8C8C8C
+
+		.g_line
+			width: 80px
+			height: 6px
+			margin: 30px auto
+			margin-bottom: 80px
+			background: $green
+
+
+
+
+
+.product_info
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		.product_intro
+			+span(6)
+			margin-top: 50px
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			padding: 0 20px
+			margin-bottom: 90px
+			position: relative
+			.new
+				position: absolute
+				width: 70px
+				height: 30px
+				background: #d20606
+				color: #FFF
+				border-radius: 20px
+				font-size: 15px
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				right: 10px
+				top: 0
+			img
+				display: block
+				margin-bottom: 20px
+				width: 90%
+			h6
+				font-size: 16px
+				color: #888
+				text-align: center
+				margin-bottom: 10px
+				font-weight: 700
+				line-height: 1.4
+
+			p 
+				font-size: 14px
+				color: #888
+				text-align: center
+				margin-bottom: 20px
+			.p-more
+				display: block
+				border: 1px solid $deep-green
+				padding: 3px 25px
+				width: 60%
+				color: $deep-green
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+				transition: all .3s
+				&:hover
+					background: $deep-green
+					color: #FFF
+
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		.product_intro
+			+span(3)
+			margin-top: 50px
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			padding: 0 20px
+			margin-bottom: 90px
+			position: relative
+			
+
+			.new
+				position: absolute
+				width: 70px
+				height: 30px
+				background: #d20606
+				color: #FFF
+				border-radius: 20px
+				font-size: 15px
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				right: 10px
+				top: 0
+			img
+				display: block
+				margin-bottom: 20px
+				width: 90%
+			h6
+				font-size: 16px
+				color: #888
+				text-align: center
+				margin-bottom: 10px
+				font-weight: 700
+				line-height: 1.4
+
+			p 
+				font-size: 14px
+				color: #888
+				text-align: center
+				margin-bottom: 20px
+			.p-more
+				display: block
+				border: 1px solid $deep-green
+				padding: 3px 25px
+				width: 60%
+				color: $deep-green
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+				transition: all .3s
+				&:hover
+					background: $deep-green
+					color: #FFF
+
+
+
+
+
+
+
+
