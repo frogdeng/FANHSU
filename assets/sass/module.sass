@@ -7,9 +7,9 @@
 // @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css)
 
 body
-	background: #FFF
+	background: #000
 	font-family: 'Noto Sans', sans-serif, Microsoft JhengHei
-	-webkit-font-smoothing: antialiased
+	// -webkit-font-smoothing: antialiased
 	overflow-x: hidden
 	line-height: 1.5
 a
@@ -25,7 +25,7 @@ a
 	zoom: 1 /* ie 6/7 */
 
 
-
+// $this_yellow: #dee100
 
 
 .header_wrapper
@@ -46,10 +46,55 @@ header
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
 		height: 90px
-		padding-left: 30px
 		display: flex
 		justify-content: flex-end
 		align-items: center
+
+		.deskmenu
+			+susy-breakpoint($breakpoint_pad, $w_pad)
+				+container
+				display: none
+
+			+susy-breakpoint($breakpoint_desktop, $desktop)
+				+container
+				width: 900px
+				height: 50px
+				margin: 0
+				// background-color: #eee
+				z-index: 1000
+				display: flex
+				flex-direction: row
+				justify-content: flex-end
+				align-items: center
+				ul
+					display: flex
+					flex-direction: row
+					justify-content: flex-end
+					align-items: center
+					li
+						position: relative
+						display: flex
+						flex-direction: column
+						justify-content: flex-end
+						align-items: center
+						transition: all .3s
+						a
+							display: block
+							height: 40px
+							color: #000
+							padding: 0 22px
+							font-size: 14px
+							font-weight: 700
+							display: flex
+							flex-direction: row
+							justify-content: flex-end
+							align-items: center
+							transition: all .3s
+						
+						&:hover
+							a
+								color: $this_yellow
+
 	
 .header_body
 	+susy-breakpoint($breakpoint_pad, $pad)
@@ -59,58 +104,49 @@ header
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		width: 100%
-		height: 500px
-		background: #289
 		display: flex
-		flex-direction: column
-		justify-content: flex-end
-		align-items: center
-		.logo
-			width: 500px
-			right: 0
-			bottom: 158px
+		flex-direction: row
+		justify-content: center	
+		align-items: center		
+		.this_wrapper
+			width: 100%
+			height: 500px
+			// background: #289
 			display: flex
-			justify-content: flex-start
+			flex-direction: row
+			justify-content: space-between
 			align-items: center
-			img
-				width: 100%
-				display: block
-				margin-right: 15px
+			.aside_menu
+				width: 35px
+				height: 47px
+				background: #222
+			.logo
+				width: 500px
+				height: 238px
+				background: #234
+				img
+					display: block
+					width: 100%
 
 
 
-		.login_section_mobile
-			display: none
+		
 
-		.login_section
-			width: 150px
-			height: 110px
-			display: flex
-			justify-content: center
-			align-items: center
-			.icon
-				width: 30px
-				height: 30px
-				border-radius: 50%
-				background: #FFF
-				margin-right: 12px
-				cursor: pointer
-				display: flex
-				justify-content: center
-				align-items: center
-				i
-					font-size: 18px
-					color: #000
 
-			.logout
-				color: #FFF
-			.login
-				color: #FFF
-		.hamburg
-			display: none
-		.aside
-			display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,51 +167,6 @@ header
 .submenu-open
 	height: 50px !important
 
-.deskmenu
-	+susy-breakpoint($breakpoint_pad, $w_pad)
-		+container
-		display: none
-
-	+susy-breakpoint($breakpoint_desktop, $desktop)
-		+container
-		width: 900px
-		height: 50px
-		// background-color: #eee
-		z-index: 1000
-		right: 40px
-		top: 10px
-		display: flex
-		flex-direction: row
-		justify-content: flex-end
-		align-items: center
-		ul
-			display: flex
-			flex-direction: row
-			justify-content: flex-end
-			align-items: center
-			li
-				position: relative
-				display: flex
-				flex-direction: column
-				justify-content: flex-end
-				align-items: center
-				transition: all .3s
-				a
-					display: block
-					height: 40px
-					color: #000
-					padding: 0 22px
-					font-size: 14px
-					font-weight: 700
-					display: flex
-					flex-direction: row
-					justify-content: flex-end
-					align-items: center
-					transition: all .3s
-				
-				&:hover
-					a
-						color: #7ED321
 
 
 				
@@ -300,10 +291,4 @@ footer
 
 
 
-
-
-
-
-.mtvh
-	margin-top: 60vh !important
 

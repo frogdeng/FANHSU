@@ -1,6 +1,7 @@
-@import "bourbon";
-@import "susy";
+@import "bourbon"
+@import "susy"
 @import _map.scss
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexming.css')
 
 
 // shorthand
@@ -16,187 +17,157 @@ $breakpoint_pad: 0 890px
 
 $susy: (debug: (image: hide))
 
+$this_yellow: #dee100
 
-$green: #7ED321
-$deep-green: #5AB331
+
+
+
 
 
 .inex_des
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
-		padding: 0 20px
-		margin-top: 90px
 		
-		h5
-			font-size: 30px
-			text-align: center
-			margin-bottom: 20px
-			font-weight: 700
-			color: #555
-		p 
-			font-size: 18px
-			color: #8C8C8C
-
-		.g_line
-			width: 80px
-			height: 6px
-			margin: 30px auto
-			margin-bottom: 80px
-			background: $green
 
 
 
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		padding: 0 100px
-		margin-top: 90px
-		
-		h5
-			font-size: 30px
-			text-align: center
-			margin-bottom: 20px
-			font-weight: 700
-			color: #555
-		p 
-			font-size: 18px
-			color: #8C8C8C
+		display: flex
+		flex-wrap: wrap
+		flex-direction: row
+		justify-content: center
+		align-items: center
+		margin-top: 46px
+		.link_style
+			display: block
+			width: 32%
+			margin: 5px 5px
+			.inex_des_block
+				position: relative
+				transition: all .3s
+				img
+					display: block
+					border-radius: 5px
+					
+				.index_des_mask
+					position: absolute
+					width: 100%
+					height: 100%
+					border-radius: 5px
+					top: 0
+					left: 0
+					display: flex
+					flex-direction: column
+					justify-content: center
+					align-items: center
+					padding: 0 50px
+					transition: all .3s
+					h6
+						color: #FFF
+						font-size: 28px
+						font-family: "source-serif-pro", "source-han-serif-tc", serif			
+						font-weight: 900
+						margin-bottom: 20px
+					p
+						display: none
+						font-size: 14px
+						color: #FFF
+						opacity: 0
+						margin-bottom: 30px
+					i 
+						color: $this_yellow
+				&:hover
+					.index_des_mask
+						background: $this_yellow
+						h6
+							color: #000
+						p
+							display: block
+							color: #000
+							opacity: 1
+						i 
+							color: #000
 
-		.g_line
-			width: 80px
-			height: 6px
-			margin: 30px auto
-			margin-bottom: 80px
-			background: $green
 
 
-
-
-
-.product_info
+.director_info
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
-		.product_intro
-			+span(6)
-			margin-top: 50px
-			display: flex
-			flex-direction: column
-			justify-content: center
-			align-items: center
-			padding: 0 20px
-			margin-bottom: 90px
-			position: relative
-			.new
-				position: absolute
-				width: 70px
-				height: 30px
-				background: #d20606
-				color: #FFF
-				border-radius: 20px
-				font-size: 15px
-				display: flex
-				flex-direction: column
-				justify-content: center
-				align-items: center
-				right: 10px
-				top: 0
-			img
-				display: block
-				margin-bottom: 20px
-				width: 90%
-			h6
-				font-size: 16px
-				color: #888
-				text-align: center
-				margin-bottom: 10px
-				font-weight: 700
-				line-height: 1.4
-
-			p 
-				font-size: 14px
-				color: #888
-				text-align: center
-				margin-bottom: 20px
-			.p-more
-				display: block
-				border: 1px solid $deep-green
-				padding: 3px 25px
-				width: 60%
-				color: $deep-green
-				display: flex
-				flex-direction: row
-				justify-content: center
-				align-items: center
-				transition: all .3s
-				&:hover
-					background: $deep-green
-					color: #FFF
-
-
-
+		
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		.product_intro
-			+span(3)
-			margin-top: 50px
+		display: flex
+		flex-direction: row
+		justify-content: center
+		align-items: center
+		margin-top: 237px
+		margin-bottom: 400px
+		.director_person
+			width: 40%
 			display: flex
 			flex-direction: column
 			justify-content: center
 			align-items: center
-			padding: 0 20px
-			margin-bottom: 90px
-			position: relative
-			
-
-			.new
-				position: absolute
-				width: 70px
-				height: 30px
-				background: #d20606
-				color: #FFF
-				border-radius: 20px
-				font-size: 15px
-				display: flex
-				flex-direction: column
-				justify-content: center
-				align-items: center
-				right: 10px
-				top: 0
-			img
-				display: block
-				margin-bottom: 20px
-				width: 90%
-			h6
-				font-size: 16px
-				color: #888
-				text-align: center
-				margin-bottom: 10px
-				font-weight: 700
-				line-height: 1.4
-
-			p 
-				font-size: 14px
-				color: #888
-				text-align: center
-				margin-bottom: 20px
-			.p-more
-				display: block
-				border: 1px solid $deep-green
-				padding: 3px 25px
-				width: 60%
-				color: $deep-green
+			padding: 0 70px
+			// background: #222
+			.director_intro
 				display: flex
 				flex-direction: row
 				justify-content: center
 				align-items: center
-				transition: all .3s
-				&:hover
-					background: $deep-green
-					color: #FFF
+				margin-bottom: 43px
+				margin-right: 20px
+				.header_img
+					width: 125px
+					height: 125px
+					border-radius: 5px
+					background: #999
+					margin-right: 53px
+				.header_des
+					h6 
+						font-size: 30px
+						color: #FFF
+						font-family: "source-serif-pro", "source-han-serif-tc", serif
+						font-weight: 900
 
+					p 
+						font-size: 15px
+						color: #FFF
+			.director_des
+				color: #FFF
+				font-weight: 15px
+				line-height: 2.33
+				margin-left: 15%
+				margin-right: 30px
+				margin-bottom: 40px
+				display: flex
+				flex-direction: column
+				justify-content: flex-end
+				align-items: flex-end
+				img
+					display: block
+					
 
-
+			.sign
+				width: 100%
+				display: flex
+				flex-direction: column
+				justify-content: flex-end
+				align-items: flex-end
+				img
+					display: block
+					width: 207px
+					
+		.cross
+			width: 70px
+			height: 70px
+			img
+				display: block
+				width: 100%
+					
 
 
 
