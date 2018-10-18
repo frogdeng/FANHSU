@@ -10,21 +10,15 @@
 <title>GREATRON</title>
 
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/magnific-popup.css">
-<link href="css/jquery.bxslider.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/iziModal.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/isotope-docs.css">
 <link rel="stylesheet" href="css/module.css">
 
-<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-<script type="text/javascript" src="http://momentjs.com/downloads/moment.min.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/iziModal.min.js"></script>
 
 <script src="js/ui.js"></script>
 
@@ -32,7 +26,7 @@
 
 
 </head>
-<body>
+<body class="white_mockup">
 
 
 
@@ -44,62 +38,172 @@
 
 
 
+
+
+	
+
+<!-- ====== -->
+<script>
+$(document).ready(function(){
+	var $grid = $('.grid').isotope({
+	  itemSelector: '.element_item',
+	  layoutMode: 'fitRows'
+	});
+	// filter functions
+	// var filterFns = {
+	//   // show if number is greater than 50
+	//   numberGreaterThan50: function() {
+	//     var number = $(this).find('.number').text();
+	//     return parseInt( number, 10 ) > 50;
+	//   },
+	//   // show if name ends with -ium
+	//   ium: function() {
+	//     var name = $(this).find('.name').text();
+	//     return name.match( /ium$/ );
+	//   }
+	// };
+
+	// bind filter button click
+	$('.filters-button-group').on( 'click', 'div', function() {
+	  var filterValue = $( this ).attr('data-filter');
+	  // use filterFn if matches value
+	  // filterValue = filterFns[ filterValue ] || filterValue;
+	  $grid.isotope({ filter: filterValue });
+	});
+	// change is-checked class on buttons
+	$('.button-group').each( function( i, buttonGroup ) {
+	  var $buttonGroup = $( buttonGroup );
+	  $buttonGroup.on( 'click', 'div', function() {
+	    $buttonGroup.find('.is-checked').removeClass('is-checked');
+	    $( this ).addClass('is-checked');
+	  });
+	});
+
+});
+</script>
+
+
+
+<!-- <div class="button-group filters-button-group">
+  <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".metal">metal</button>
+  <button class="button" data-filter=".transition">transition</button>
+  <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+  <button class="button" data-filter=":not(.transition)">not transition</button>
+  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+  <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+  <button class="button" data-filter="ium">name ends with &ndash;ium</button>
+</div> -->
 
 
 <div class="works_fun_section">
 	<div class="woks_filter">
-		<div class="works_menu">
-			<ul>
-				<li><a href="">All</a></li>
-				<li><a href="">平面</a></li>
-				<li><a href="">包裝</a></li>
-				<li><a href="">展示</a></li>
-				<li><a href="">活動</a></li>
-			</ul>
-
+		<div class="works_menu filter_button button-group filters-button-group">
+			<div class="filter_button_item is-checked " data-filter="*">All</div>
+			<div class="filter_button_item" data-filter=".aaa">平面</div>
+			<div class="filter_button_item" data-filter=".bbb">包裝</div>
+			<div class="filter_button_item" data-filter=".ccc">展示</div>
+			<div class="filter_button_item" data-filter=".ddd">空間</div>
+			<div class="filter_button_item" data-filter=".eee">活動</div>
+			<!-- <ul>
+				<li><a href="" class="button is-checked" data-filter=".transition">平面</a></li>
+				<li><a href="" class="button" data-filter=".alkali, .alkaline-earth">包裝</a></li>
+				<li><a href="" class="button" data-filter="numberGreaterThan50">展示</a></li>
+				<li><a href="" class="button" data-filter="ium">活動</a></li>
+			</ul> -->
 		</div>
+
 		<div class="works_search">
 				<input type="text"  placeholder="請輸入關鍵字">
 				<i class="fas fa-search"></i>
 		</div>
 	</div>
 
-</div>	
+</div>
+
+
+
+
 
 
 <div class="works_list_section">
 	
-	<div class="works_list_wrapper">
+	<div class="works_list_wrapper grid">
 
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
-		</div>
+		<div class="element_item transition aaa " data-category="transition">
+			<div class="works_block">
+				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+				</div>
 
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
-		</div>
-
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
-		</div>
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+			</div>
 		</div>
 
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+		<div class="element_item transition bbb " data-category="transition">
+			<div class="works_block">
+				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+				</div>
+
+			</div>
 		</div>
 
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
-		</div>
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+		<div class="element_item transition ccc " data-category="transition">
+			<div class="works_block">
+				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+				</div>
+
+			</div>
 		</div>
 
-		<div class="works_block">
-			<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+		<div class="element_item transition aaa " data-category="transition">
+			<div class="works_block">
+				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+				</div>
+
+			</div>
 		</div>
+
+		<div class="element_item transition bbb " data-category="transition">
+			<div class="works_block">
+				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="element_item transition ccc " data-category="transition">
+			<div class="works_block">
+				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+				</div>
+
+			</div>
+		</div>
+
+
+
 	</div>
 
 
