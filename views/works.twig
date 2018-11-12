@@ -64,11 +64,11 @@ $(document).ready(function(){
 	<div class="woks_filter">
 		<div class="works_menu filter_button button-group filters-button-group">
 			<div class="filter_button_item is-checked " data-filter="*">All</div>
-			<div class="filter_button_item" data-filter=".aaa">平面</div>
-			<div class="filter_button_item" data-filter=".bbb">包裝</div>
-			<div class="filter_button_item" data-filter=".ccc">展示</div>
-			<div class="filter_button_item" data-filter=".ddd">空間</div>
-			<div class="filter_button_item" data-filter=".eee">活動</div>
+			<div class="filter_button_item" data-filter=".filter__graphic">平面</div>
+			<div class="filter_button_item" data-filter=".filter__package">包裝</div>
+			<div class="filter_button_item" data-filter=".filter__display">展示</div>
+			<div class="filter_button_item" data-filter=".filter__space">空間</div>
+			<div class="filter_button_item" data-filter=".filter__activity">活動</div>
 			<!-- <ul>
 				<li><a href="" class="button is-checked" data-filter=".transition">平面</a></li>
 				<li><a href="" class="button" data-filter=".alkali, .alkaline-earth">包裝</a></li>
@@ -94,73 +94,130 @@ $(document).ready(function(){
 	
 	<div class="works_list_wrapper grid">
 
-		<div class="element_item transition aaa " data-category="transition">
+		<div class="element_item transition filter__graphic " data-category="transition">
 			<div class="works_block">
-				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
 				<div class="works_des">
 					<h5>Taiwan / Taipei</h5>
 					<h6>北一女校史室設計</h6>
 					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
 				</div>
 
 			</div>
 		</div>
 
-		<div class="element_item transition bbb " data-category="transition">
+		<div class="element_item transition filter__package " data-category="transition">
 			<div class="works_block">
-				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
 				<div class="works_des">
 					<h5>Taiwan / Taipei</h5>
 					<h6>北一女校史室設計</h6>
 					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
 				</div>
 
 			</div>
 		</div>
 
-		<div class="element_item transition ccc " data-category="transition">
+		<div class="element_item transition filter__display " data-category="transition">
 			<div class="works_block">
-				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
 				<div class="works_des">
 					<h5>Taiwan / Taipei</h5>
 					<h6>北一女校史室設計</h6>
 					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
 				</div>
 
 			</div>
 		</div>
 
-		<div class="element_item transition aaa " data-category="transition">
+		<div class="element_item transition filter__graphic " data-category="transition">
 			<div class="works_block">
-				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
 				<div class="works_des">
 					<h5>Taiwan / Taipei</h5>
 					<h6>北一女校史室設計</h6>
 					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
 				</div>
 
 			</div>
 		</div>
 
-		<div class="element_item transition bbb " data-category="transition">
+		<div class="element_item transition filter__package " data-category="transition">
 			<div class="works_block">
-				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
 				<div class="works_des">
 					<h5>Taiwan / Taipei</h5>
 					<h6>北一女校史室設計</h6>
 					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
 				</div>
 
 			</div>
 		</div>
 		
-		<div class="element_item transition ccc " data-category="transition">
+		<div class="element_item transition filter__display " data-category="transition">
 			<div class="works_block">
-				<div class="pic"><img src="img/works_a_01.jpg" alt=""></div>
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
 				<div class="works_des">
 					<h5>Taiwan / Taipei</h5>
 					<h6>北一女校史室設計</h6>
 					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="element_item transition filter__space" data-category="transition">
+			<div class="works_block">
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="element_item transition filter__activity" data-category="transition">
+			<div class="works_block">
+				<div class="pic">
+					<img src="img/works_a_01.jpg" alt="">
+					<img src="img/y-slash.png" alt="">
+				</div>
+				<div class="works_des">
+					<h5>Taiwan / Taipei</h5>
+					<h6>北一女校史室設計</h6>
+					<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+					<div class="arrow_right"><i class="fas fa-long-arrow-alt-right"></i></div>
 				</div>
 
 			</div>

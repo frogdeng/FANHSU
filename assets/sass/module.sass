@@ -29,6 +29,7 @@ a
 
 .white_mockup
 	background: #eee
+	background: url('../img/paper_background.png')
 
 
 .header_wrapper
@@ -136,9 +137,55 @@ header
 		
 
 
+.inside_header
+	+susy-breakpoint($breakpoint_pad, $w_pad)
+		+container
+		
 
 
 
+
+	+susy-breakpoint($breakpoint_desktop, $w_desktop)
+		+container
+		margin: 33px 43px
+		
+		.for_flex
+			width: 100%
+			height: 21px
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			align-items: center
+			.row-logo
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+			.inside_menu
+				ul 
+					display: flex
+					flex-direction: row
+					justify-content: flex-end
+					align-items: center
+					li
+						a 
+							display: block
+							margin: 0 10px
+							font-size: 14px
+							color: #000
+					.fb-btn
+						width: 25px
+						height: 25px
+						background: #dee100
+						border-radius: 50%
+						display: flex
+						flex-direction: row
+						justify-content: center
+						align-items: center
+						i 
+							color: #000
+							font-size: 13px
+							margin: 0
 
 
 
@@ -240,7 +287,7 @@ header
 
 .footer_wrapper
 	width: 100%
-	background: #222
+	background: #000
 	background-size: cover
 	padding: 20px 0
 	margin-top: 50px
@@ -251,17 +298,17 @@ footer
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
 		padding: 0 20px
-		.footer_link
-			margin-bottom: 20px
-			a
-				margin-right: 35px
-				color: #C9FFB0
-				font-size: 16px
-
 		.copyright
-			padding: 10px 0
+			padding: 20px
+			display: flex
+			flex-wrap: wrap
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			img
+				margin-bottom: 50px
 			p
-				color: #C9C9C9
+				color: #999
 				font-size: 14px
 				line-height: 1.5
 				margin-bottom: 3px
@@ -273,24 +320,24 @@ footer
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		.footer_link
-			margin-bottom: 20px
-			a
-				margin-right: 35px
-				color: #C9FFB0
-				font-size: 16px
-
-
-
+		padding: 0 20px
 		.copyright
-			padding: 10px 0
+			padding: 30px
+			display: flex
+			flex-wrap: wrap
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			img
+				margin-bottom: 50px
 			p
-				color: #C9C9C9
+				color: #999
 				font-size: 14px
 				line-height: 1.5
 				margin-bottom: 3px
 				text-align: center
-				
+				span 
+					margin: 0 25px
 
 
 
