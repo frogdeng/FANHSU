@@ -193,10 +193,60 @@ header
 
 
 
+.contact_us
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		
 
 
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 0 20px
+		margin-bottom: 160px
+		h3
+			font-size: 15px
+			color: #000
 
+		h2
+			font-size: 25px
+			font-family: "source-serif-pro", "source-han-serif-tc", serif
 
+		.contact_info_bg
+			background: rgba(0,0,0,.7)
+			padding: 6px
+			display: flex
+			flex-direction: row
+			justify-content: center
+			align-items: center
+
+			.contact_info
+				width: 100%
+				padding-top: 80px
+				background: #FFF
+				border-radius: 27px 27px 0 0
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				.info_row
+					width: 40%
+					display: flex
+					flex-direction: row
+					justify-content: flex-start
+					align-items: flex-start
+					p 
+						color: #000
+						margin: 5px 0px
+						font-size: 20px
+				.map
+					margin-top: 90px
+					background: rgba(0,0,0,.7)
+					img 
+						display: block
+						
+
+.mr-30
+	width: 100px
 
 
 

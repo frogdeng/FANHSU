@@ -5,7 +5,7 @@
 
 
 // shorthand
-$desktop: 12 (90px 30px) split
+$desktop: 12 (80px 30px) split
 $pad: 6 (80px 40px) split
 
 $w_desktop: 12 split
@@ -1071,18 +1071,162 @@ $self_yellow: #dee100
 
 
 
+.contact_us
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 0 20px
+		margin-top: 100px
+		margin-bottom: 160px
+		h3
+			font-size: 15px
+			color: #000
+			margin-bottom: 10px
+			text-align: center
+			letter-spacing: 3px
+		h2
+			font-size: 25px
+			color: #000
+			font-family: "source-serif-pro", "source-han-serif-tc", serif
+			margin-bottom: 20px
+			font-weight: 900
+			text-align: center
+			letter-spacing: 3px
+		.slash-y
+			display: flex
+			flex-direction: row
+			justify-content: center
+			align-items: center
+			img
+				display: block
+				width: 85px
+
+		.contact_info_bg
+			background: rgba(0,0,0,.7)
+			padding: 6px
+			display: flex
+			flex-direction: row
+			justify-content: center
+			align-items: center
+
+			.contact_info
+				width: 100%
+				padding-top: 80px
+				background: #FFF
+				border-radius: 27px 27px 0 0
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				.info_row
+					width: 40%
+					display: flex
+					flex-direction: row
+					justify-content: flex-start
+					align-items: flex-start
+					margin-bottom: 18px
+					p 
+						color: #000
+						margin: 0px 0px
+						font-size: 20px
+				.map
+					margin-top: 90px
+					background: rgba(0,0,0,.7)
+					img 
+						display: block
+						
+
+.mr-30
+	width: 100px
 
 
 
 
+// portfolio layout
+
+$portfolio_desktop: 12 (70px 25px) split
+$portfolio_pad: 6 (80px 40px) split
+
+.portfolio_layout_a
+	+susy-breakpoint($breakpoint_pad, $portfolio_pad)
+		+container
+		
+
+
+	+susy-breakpoint($breakpoint_desktop, $portfolio_desktop)
+		+container
+		margin-top: 120px	
+		.layout_a_works_main
+			width: 100%
+			margin-bottom: 12px
+			box-shadow: 0px 2px 6px rgba(0,0,0,.14)
+			img
+				width: 100%
+				display: block
+				
+		.layout_a_works_small
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			align-items: flex-start
+			margin-bottom: 30px
+
+			.works_item
+				width: 24%
+				padding: 0 0px
+				box-shadow: 0px 2px 6px rgba(0,0,0,.14)
+				img
+					width: 100%
+					display: block
 
 
 
+		.layout_a_description_bg
+			background: rgba(0,0,0,.7)
+			padding: 6px
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			margin-bottom: 150px
+			.layout_a_description
+				width: 100%
+				background: #FFF
+				border-radius: 27px
+				padding: 80px 15%
+				.d-line
+					width: 30%
+					height: 1px
+					background: #000
+					margin: 50px auto
+					margin-bottom: 100px
+				h4
+					color: #000
+					text-align: center
+					font-size: 30px
+					letter-spacing: 3px
+		
+				h6 
+					color: #000
+					font-size: 20px
+					letter-spacing: 2px
+					margin-bottom: 50px
 
-
-
-
-
+				p 
+					color: #4a4a4a
+					margin-bottom: 40px
+					font-size: 15px
+					letter-spacing: 2px
+			.goback
+				height: 45px
+				width: 90px
+				border-top-left-radius: 90px
+				border-top-right-radius: 90px
+				background: #290
 
 
 
