@@ -1151,7 +1151,11 @@ $self_yellow: #dee100
 $portfolio_desktop: 12 (70px 25px) split
 $portfolio_pad: 6 (80px 40px) split
 
-.portfolio_layout_a
+
+
+
+
+.layout_a_description_bg
 	+susy-breakpoint($breakpoint_pad, $portfolio_pad)
 		+container
 		
@@ -1159,74 +1163,190 @@ $portfolio_pad: 6 (80px 40px) split
 
 	+susy-breakpoint($breakpoint_desktop, $portfolio_desktop)
 		+container
-		margin-top: 120px	
-		.layout_a_works_main
+		background: rgba(0,0,0,.7)
+		padding: 6px
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		margin-bottom: 150px
+		margin-top: 30px
+		.layout_a_description
 			width: 100%
-			margin-bottom: 12px
-			box-shadow: 0px 2px 6px rgba(0,0,0,.14)
-			img
-				width: 100%
-				display: block
-				
-		.layout_a_works_small
-			display: flex
-			flex-direction: row
-			justify-content: space-between
-			align-items: flex-start
-			margin-bottom: 30px
+			background: #FFF
+			border-radius: 27px
+			padding: 80px 15% 0 15%
+			.d-line
+				width: 30%
+				height: 1px
+				background: #000
+				margin: 50px auto
+				margin-bottom: 100px
+			h4
+				color: #000
+				text-align: center
+				font-size: 30px
+				letter-spacing: 3px
+	
+			h6 
+				color: #000
+				font-size: 20px
+				letter-spacing: 2px
+				margin-bottom: 50px
 
-			.works_item
-				width: 24%
-				padding: 0 0px
-				box-shadow: 0px 2px 6px rgba(0,0,0,.14)
-				img
-					width: 100%
-					display: block
-
-
-
-		.layout_a_description_bg
-			background: rgba(0,0,0,.7)
-			padding: 6px
+			p 
+				color: #4a4a4a
+				margin-bottom: 40px
+				font-size: 15px
+				letter-spacing: 2px
+		.goback
+			display: block
+			height: 40px
+			width: 80px
+			margin: 0 auto
+			margin-top: 120px
+			border-top-left-radius: 80px
+			border-top-right-radius: 80px
+			background: #dee100
+			color: #000
+			font-size: 13px
 			display: flex
 			flex-direction: column
 			justify-content: center
 			align-items: center
-			margin-bottom: 150px
-			.layout_a_description
-				width: 100%
-				background: #FFF
-				border-radius: 27px
-				padding: 80px 15%
-				.d-line
-					width: 30%
-					height: 1px
-					background: #000
-					margin: 50px auto
-					margin-bottom: 100px
-				h4
-					color: #000
-					text-align: center
-					font-size: 30px
-					letter-spacing: 3px
-		
-				h6 
-					color: #000
-					font-size: 20px
-					letter-spacing: 2px
-					margin-bottom: 50px
+			padding-top: 15px
 
-				p 
-					color: #4a4a4a
-					margin-bottom: 40px
-					font-size: 15px
-					letter-spacing: 2px
-			.goback
-				height: 45px
-				width: 90px
-				border-top-left-radius: 90px
-				border-top-right-radius: 90px
-				background: #290
+
+
+
+
+
+// portfolio_layout_b
+.portfolio_layout_module
+	+susy-breakpoint($breakpoint_pad, $portfolio_pad)
+		+container
+		
+
+
+	+susy-breakpoint($breakpoint_desktop, $portfolio_desktop)
+		+container
+		margin-top: 100px
+		img
+			width: 100%
+			display: block
+			box-shadow: 0px 2px 6px rgba(0,0,0,.14)
+
+		.grid-container
+			display: grid
+			grid-column-gap: 10px
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+			// background-color: #000
+			.item_col-12
+				// height: 300px
+				grid-column: span 12
+				grid-row: 1
+				margin-bottom: 10px
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+
+			.item_col-4
+				// height: 300px
+				grid-column: span 4
+				// grid-row: 2
+				margin-bottom: 10px
+				display: flex
+				flex-direction: column
+				justify-content: flex-start
+				align-items: flex-start
+				
+				img
+					&:first-child
+						margin-bottom: 10px
+
+			.item_col-8
+				// height: 300px
+				grid-column: 5 / span 8
+				// grid-row: 2
+				margin-bottom: 10px
+				display: flex
+				flex-direction: row
+				justify-content: flex-start
+				align-items: flex-start
+
+
+			.item_col-6
+				// height: 300px
+				grid-column: span 6
+				// grid-row: 3
+				margin-bottom: 10px
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+
+			.item_col-3
+				// height: 300px
+				grid-column: span 3
+				// grid-row: 3
+				margin-bottom: 10px
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+
+
+
+		// .layout_b_works_main
+		// 	width: 100%
+		// 	margin-bottom: 10px
+			
+
+		// .layout_b_works_col-2
+		// 	display: flex
+		// 	flex-direction: row
+		// 	justify-content: space-between
+		// 	align-items: flex-start
+		// 	margin-bottom: 10px
+		// 	.col-2_item
+		// 		width: 50%
+		// 		margin-right: 10px
+		// 		&:nth-last-child(1)
+		// 			margin-right: 0px
+
+		// .layout_b_works_col-3
+		// 	display: flex
+		// 	flex-direction: row
+		// 	justify-content: space-between
+		// 	align-items: flex-start
+		// 	margin-bottom: 10px
+		// 	.col-3_item
+		// 		width: 33.33%
+		// 		margin-right: 10px
+		// 		&:nth-last-child(1)
+		// 			margin-right: 0px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
