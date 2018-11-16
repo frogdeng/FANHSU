@@ -2165,8 +2165,9 @@ a {
     position: relative; }
   .about .members .y-slash {
     position: absolute;
-    left: 0;
-    width: 200px;
+    top: 100px;
+    left: -20%;
+    width: 30%;
     height: 16px;
     background: url("../img/y-slash-big.png");
     background-size: 30%; }
