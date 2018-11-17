@@ -1979,7 +1979,8 @@ a {
     background: #222; }
   .header_body .this_wrapper .logo {
     width: 500px;
-    height: 238px; }
+    height: 238px;
+    margin-top: 400px; }
   .header_body .this_wrapper .logo img {
     display: block;
     width: 100%; } }
