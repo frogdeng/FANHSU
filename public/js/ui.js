@@ -1,11 +1,9 @@
 $(document).ready(function(){
 
-	  $(".hamburg").click(function(){
-	     $('.aside').delay(200).toggleClass("hamburg-open");
+	  $(".desktop_aside_menu").click(function(){
+	     $('.desktop_aside').delay(200).toggleClass("hamburg-open");
 	     $(this).delay(200).toggleClass("cross");
 	    });
-
-
 
 
 
