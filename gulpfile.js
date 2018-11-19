@@ -88,7 +88,7 @@ gulp.task('browser-sync', function() {
 // watch
 gulp.task('watch',function(){
     gulp.watch('./assets/sass/*.sass', ['sass']);
-    gulp.watch(['./views/*.twig','./views/_template/*.twig','./public/_data/*.json'],['twig-watch']);
+    gulp.watch(['./views/*.twig','./views/_template/*.twig','./views/_template/_partial/*.twig','./public/_data/*.json'],['twig-watch']);
     gulp.watch('./public/img/*.jpg', browserSync.reload);
     gulp.watch('./public/img/*.png', browserSync.reload);
 })
