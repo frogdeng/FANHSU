@@ -1505,6 +1505,391 @@ $portfolio_pad: 6 (80px 40px) split
 
 
 
+.about
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		margin-top: 100px
+		padding: 20px
+		h5
+			font-size: 12px
+			color: #FFF
+		h6 
+			font-size: 32px
+			font-family: "source-serif-pro", "source-han-serif-tc", serif
+			color: #FFF
+
+		.anchor_menu
+			display: flex
+			flex-direction: row
+			justify-content: flex-start
+			align-items: center
+			margin-bottom: 55px
+			.anchor_menu_item
+				color: #dee100
+				margin-right: 30px
+				letter-spacing: 3px
+		.about_description
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			margin-bottom: 50px
+			img
+				display: block
+				width: 100%
+				margin-top: 15px
+				margin-bottom: 30px
+
+			.brand_concept
+				width: 100%
+				img
+					width: 60px
+				
+				p 
+					font-size: 15px
+					color: #888787
+					margin-bottom: 20px
+
+		.members
+			position: relative
+			.y-slash
+				position: absolute
+				top: 100px
+				left: -20%
+				width: 30%
+				height: 16px
+				background: url('../img/y-slash-big.png')
+				background-size: 30%
+
+			.chief_members
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				margin-bottom: 10px
+				margin-top: 90px
+
+				.chief_person-left
+					width: 100%
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					align-items: center
+					padding: 20px
+					background-image: linear-gradient(to bottom, #f1f200, #dee100)
+					.chief_person-des
+						width: 55%
+						display: flex
+						flex-direction: column
+						justify-content: center
+						align-items: flex-end
+						.t-line
+							width: 140px
+							height: 2px
+							background: #000
+							margin: 20px 0
+						.cheif_sign
+							margin-top: 50px
+
+						h5 
+							text-align: right
+							font-size: 16px
+							color: #000
+
+						h6 
+							text-align: right
+							font-size: 32px
+							color: #000
+
+						p 
+							text-align: right
+							color: #000
+							line-height: 2
+					.chief_person-img
+						width: 40%
+
+				.chief_person-right
+					width: 100%
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					align-items: center
+					padding: 20px
+					background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b)
+					.chief_person-des
+						width: 55%
+						display: flex
+						flex-direction: column
+						justify-content: center
+						align-items: flex-start
+						.t-line
+							width: 140px
+							height: 2px
+							background: #dee100
+							margin: 20px 0
+						.cheif_sign
+							margin-top: 50px
+
+						h5 
+							text-align: left
+							font-size: 16px
+							color: #000
+
+						h6 
+							text-align: left
+							font-size: 32px
+							color: #000
+
+						p 
+							text-align: left
+							color: #000
+							line-height: 2
+					.chief_person-img
+						width: 40%
+
+
+			.our_members
+				width: 100%
+				margin-bottom: 180px
+				
+				.to_flex
+					display: flex
+					flex-direction: row
+					flex-wrap: wrap
+					justify-content: center
+					align-items: center
+					.our_members_item
+						width: 49%
+			
+						background: #979797
+						position: relative
+						margin-bottom: 10px
+						img 
+							display: block
+							
+						// &:last-child
+						// 	margin-right: 0
+						&:nth-child(odd)
+							margin-right: 2%
+						.mask
+							position: absolute
+							width: 100%	
+							height: 60px
+							left: 0
+							bottom: 0
+							display: flex
+							flex-direction: row
+							justify-content: center
+							align-items: center
+							background: rgba(255,255,255,.6)
+							p 
+								color: #000
+								font-size: 9px
+								margin-bottom: 0
+								margin-right: 15px
+							h6
+								color: #000
+								font-size: 18px
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		margin-top: 100px
+		padding: 20px
+		h5
+			font-size: 12px
+			color: #FFF
+		h6 
+			font-size: 32px
+			font-family: "source-serif-pro", "source-han-serif-tc", serif
+			color: #FFF
+
+		.anchor_menu
+			display: flex
+			flex-direction: row
+			justify-content: flex-start
+			align-items: center
+			margin-bottom: 55px
+			.anchor_menu_item
+				color: #dee100
+				margin-right: 30px
+				letter-spacing: 3px
+		.about_description
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			align-items: center
+			margin-bottom: 50px
+			img
+				display: block
+				width: 45%
+				margin-top: 15px
+				margin-bottom: 30px
+
+			.brand_concept
+				width: 40%
+				img
+					width: 60px
+			
+				
+				p 
+					font-size: 15px
+					color: #888787
+					margin-bottom: 20px
+
+		.members
+			position: relative
+			
+			.y-slash
+				position: absolute
+				top: 100px
+				left: -20%
+				width: 30%
+				height: 16px
+				background: url('../img/y-slash-big.png')
+				background-size: 30%
+
+			.chief_members
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+				margin-bottom: 10px
+				margin-top: 90px
+
+				.chief_person-left
+					width: 50%
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					align-items: center
+					padding: 52px 35px 65px 69px
+					background-image: linear-gradient(to bottom, #f1f200, #dee100)
+					.chief_person-des
+						width: 50%
+						display: flex
+						flex-direction: column
+						justify-content: center
+						align-items: flex-end
+						.t-line
+							width: 140px
+							height: 2px
+							background: #000
+							margin: 20px 0
+						.cheif_sign
+							margin-top: 100px
+
+						h5 
+							text-align: right
+							font-size: 16px
+							color: #000
+
+						h6 
+							text-align: right
+							font-size: 32px
+							color: #000
+
+						p 
+							text-align: right
+							color: #000
+							line-height: 2
+					.chief_person-img
+						width: 40%
+
+				.chief_person-right
+					width: 50%
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					align-items: center
+					padding: 52px 35px 65px 69px
+					background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b)
+					.chief_person-des
+						width: 50%
+						display: flex
+						flex-direction: column
+						justify-content: center
+						align-items: flex-start
+						.t-line
+							width: 140px
+							height: 2px
+							background: #dee100
+							margin: 20px 0
+						.cheif_sign
+							margin-top: 100px
+
+						h5 
+							text-align: left
+							font-size: 16px
+							color: #000
+
+						h6 
+							text-align: left
+							font-size: 32px
+							color: #000
+
+						p 
+							text-align: left
+							color: #000
+							line-height: 2
+					.chief_person-img
+						width: 40%
+
+
+			.our_members
+				width: 100%
+				margin-bottom: 180px
+				
+				.to_flex
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					align-items: center
+					.our_members_item
+						width: 25%
+						margin-right: 10px
+						background: #979797
+						position: relative
+						margin-bottom: 10px
+						img 
+							display: block
+							
+						&:last-child
+							margin-right: 0
+
+						.mask
+							position: absolute
+							width: 100%	
+							height: 60px
+							left: 0
+							bottom: 0
+							display: flex
+							flex-direction: row
+							justify-content: center
+							align-items: center
+							background: rgba(255,255,255,.6)
+							p 
+								color: #000
+								font-size: 12px
+								margin-bottom: 0
+								margin-right: 15px
+							h6
+								color: #000
+								font-size: 24px
+
+
+
+
+
+.p-1
+	background-image: linear-gradient(to bottom, #f1f200, #dee100)
+.p-2
+	background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b)
+
+
+
+
 
 
 

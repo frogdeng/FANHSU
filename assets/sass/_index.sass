@@ -27,7 +27,63 @@ $this_yellow: #dee100
 .inex_des
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
-		
+		display: flex
+		flex-wrap: wrap
+		flex-direction: row
+		justify-content: center
+		align-items: center
+		margin-top: 46px
+		.link_style
+			display: block
+			width: 45%
+			margin: 5px 5px
+			.inex_des_block
+				position: relative
+				transition: all .3s
+				img
+					display: block
+					border-radius: 5px
+					
+				.index_des_mask
+					position: absolute
+					width: 100%
+					height: 100%
+					border-radius: 5px
+					top: 0
+					left: 0
+					display: flex
+					flex-direction: column
+					justify-content: center
+					align-items: center
+					padding: 0 10px
+					transition: all .3s
+					h6
+						color: #FFF
+						font-size: 12px
+						font-family: "source-serif-pro", "source-han-serif-tc", serif			
+						font-weight: 900
+						margin-bottom: 20px
+						letter-spacing: 5px
+					p
+						display: none
+						font-size: 14px
+						color: #FFF
+						opacity: 0
+						margin-bottom: 30px
+						letter-spacing: 2px
+					i 
+						color: $this_yellow
+				&:hover
+					.index_des_mask
+						background: $this_yellow
+						h6
+							color: #000
+						p
+							display: block
+							color: #000
+							opacity: 1
+						i 
+							color: #000
 
 
 
@@ -97,7 +153,75 @@ $this_yellow: #dee100
 .director_info
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
-		
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		margin-top: 237px
+		margin-bottom: 400px
+		.director_person
+			width: 100%
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			padding: 0 20px
+			// background: #222
+			.director_intro
+				display: flex
+				flex-direction: row
+				justify-content: center
+				align-items: center
+				margin-bottom: 43px
+				margin-right: 20px
+				.header_img
+					width: 125px
+					height: 125px
+					border-radius: 5px
+					background: #999
+					margin-right: 20px
+				.header_des
+					h6 
+						font-size: 30px
+						color: #FFF
+						font-family: "source-serif-pro", "source-han-serif-tc", serif
+						font-weight: 900
+
+					p 
+						font-size: 15px
+						color: #FFF
+			.director_des
+				color: #FFF
+				font-weight: 15px
+				line-height: 2.33
+				margin-left: 20px
+				margin-right: 30px
+				margin-bottom: 40px
+				display: flex
+				flex-direction: column
+				justify-content: flex-end
+				align-items: flex-end
+				img
+					display: block
+					
+
+			.sign
+				width: 100%
+				display: flex
+				flex-direction: column
+				justify-content: flex-end
+				align-items: flex-end
+				img
+					display: block
+					width: 207px
+					
+		.cross
+			width: 70px
+			height: 70px
+			margin: 60px 0
+			img
+				display: block
+				width: 100%
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
