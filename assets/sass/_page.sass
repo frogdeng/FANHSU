@@ -509,226 +509,6 @@ $green: #190
 
 
 
-.contact_form
-	+susy-breakpoint($breakpoint_pad, $pad)
-		+container
-		padding: 20px 20px
-		margin-bottom: 50px
-		.form_map
-			+span(6)
-			
-			.map
-				border: 3px solid #ddd
-				height: 500px
-				margin-top: 30px
-				iframe
-					width: 100%
-					height: 100%
-					
-		.form_left
-			+span(6)
-			h6
-				font-size: 20px
-				color: $deep_green
-				margin-bottom: 30px
-			.info
-				margin-left: 160px
-				margin-bottom: 30px	
-				p 
-					font-size: 16px
-					color: #888
-					margin-bottom: 5px
-
-			.sumit
-				background: $deep_green
-				width: 200px
-				height: 40px
-				color: #FFF
-				font-size: 18px
-				display: flex
-				flex-direction: row
-				justify-content: center
-				align-items: center
-				margin-left: 160px
-				border-radius: 3px
-				transition: all .3s
-				cursor: pointer
-				&:hover
-					background: #222
-			.i-form
-				width: 100%
-				margin-bottom: 20px
-				display: flex
-				flex-direction: row
-				justify-content: flex-start
-				align-items: center
-				h4
-					width: 100px
-					margin: 0 30px	
-					font-size: 16px
-					text-align: right
-				input
-					width: 70%
-					height: 40px
-					border: 1px solid #c0c0c0
-					font-size: 14px
-					padding: 0 20px
-
-				textarea
-					width: 70%
-					height: 120px	
-					border: 1px solid #c0c0c0
-			.attachment_section
-				width: 70%
-				height: 60px
-				margin-bottom: 50px
-				
-				h5
-					font-size: 16px
-					margin-bottom: 5px
-				p 
-					font-size: 14px
-					color: #888
-				input
-					width: 100%
-					height: 40px
-					border: 1px solid #c0c0c0
-					font-size: 14px
-					padding: 0 20px
-				.attachment
-					background: #F1F1F1
-					width: 100%
-					height: 60px
-					display: flex
-					flex-direction: row
-					justify-content: flex-start
-					align-items: center
-					padding: 20px
-					margin-bottom: 10px
-					.attachment_btn
-						border: 1px solid #5AB331
-						padding: 5px 20px
-						border-radius: 3px
-						color: #5AB331
-						font-size: 16px
-						transition: all .3s
-						cursor: pointer
-						&:hover
-							background: $deep_green
-							color: #FFF
-
-
-
-
-	+susy-breakpoint($breakpoint_desktop, $desktop)
-		+container
-		margin-bottom: 50px
-		.form_map
-			+span(6)
-			
-			.map
-				border: 3px solid #ddd
-				height: 500px
-				margin-top: 30px
-				iframe
-					width: 100%
-					height: 100%
-					
-		.form_left
-			+span(6)
-			h6
-				font-size: 20px
-				color: $deep_green
-				margin-bottom: 30px
-			.info
-				margin-left: 160px
-				margin-bottom: 30px	
-				p 
-					font-size: 16px
-					color: #888
-					margin-bottom: 5px
-
-			.sumit
-				background: $deep_green
-				width: 200px
-				height: 40px
-				color: #FFF
-				font-size: 18px
-				display: flex
-				flex-direction: row
-				justify-content: center
-				align-items: center
-				margin-left: 160px
-				border-radius: 3px
-				transition: all .3s
-				cursor: pointer
-				&:hover
-					background: #222
-			.i-form
-				width: 100%
-				margin-bottom: 20px
-				display: flex
-				flex-direction: row
-				justify-content: flex-start
-				align-items: center
-				h4
-					width: 100px
-					margin: 0 30px	
-					font-size: 16px
-					text-align: right
-				input
-					width: 70%
-					height: 40px
-					border: 1px solid #c0c0c0
-					font-size: 14px
-					padding: 0 20px
-
-				textarea
-					width: 70%
-					height: 120px	
-					border: 1px solid #c0c0c0
-			.attachment_section
-				width: 70%
-				height: 60px
-				margin-bottom: 50px
-				
-				h5
-					font-size: 16px
-					margin-bottom: 5px
-				p 
-					font-size: 14px
-					color: #888
-				input
-					width: 100%
-					height: 40px
-					border: 1px solid #c0c0c0
-					font-size: 14px
-					padding: 0 20px
-				.attachment
-					background: #F1F1F1
-					width: 100%
-					height: 60px
-					display: flex
-					flex-direction: row
-					justify-content: flex-start
-					align-items: center
-					padding: 20px
-					margin-bottom: 10px
-					.attachment_btn
-						border: 1px solid #5AB331
-						padding: 5px 20px
-						border-radius: 3px
-						color: #5AB331
-						font-size: 16px
-						transition: all .3s
-						cursor: pointer
-						&:hover
-							background: $deep_green
-							color: #FFF
-
-
-
-
 
 
 .simple-search
@@ -1063,12 +843,18 @@ $self_yellow: #dee100
 				margin-right: 3%
 				margin-bottom: 120px
 				color: #262524
+
 				// &:nth-child(3n+3)
 				// 	margin-right: 0
 					// border: 2px solid $self_yellow
 				.works_block
+					cursor: pointer
+					transition: all .3s
+					&:hover
+						transform: scale(1.02)
 					.pic
 						margin-bottom: 3px
+						
 						img
 							display: block
 							margin-bottom: 0
@@ -1087,9 +873,11 @@ $self_yellow: #dee100
 							font-size: 12px
 							color: #888787
 						.arrow_right
+							width: 23px
 							float: right
 							font-size: 21px
 							color: $this_yellow
+							// background: #299
 							
 
 		
@@ -1158,11 +946,14 @@ $self_yellow: #dee100
 						font-size: 15px
 						span 
 							margin-right: 20px
-				.map
-					margin-top: 50px
+				.google-map
+					width: 100%
+					height: 500px
+					margin-top: 90px
 					background: rgba(0,0,0,.7)
-					img 
-						display: block
+					iframe
+						width: 100%
+						height: 500px
 				.mr-30
 					width: 70px
 
@@ -1222,9 +1013,14 @@ $self_yellow: #dee100
 						color: #000
 						margin: 0px 0px
 						font-size: 20px
-				.map
+				.google-map
+					width: 100%
+					height: 500px
 					margin-top: 90px
 					background: rgba(0,0,0,.7)
+					iframe
+						width: 100%
+						height: 500px
 					img 
 						display: block
 						
@@ -1557,6 +1353,7 @@ $portfolio_pad: 6 (80px 40px) split
 
 		.members
 			position: relative
+			margin-bottom: 150px
 			.y-slash
 				position: absolute
 				top: 70px
@@ -1569,7 +1366,7 @@ $portfolio_pad: 6 (80px 40px) split
 				font-size: 15px
 				color: #FFF
 				margin-bottom: 80px
-				margin-top: 90px
+				margin-top: 30px
 
 			.chief_members
 				display: flex
@@ -1577,7 +1374,7 @@ $portfolio_pad: 6 (80px 40px) split
 				justify-content: center
 				align-items: center
 				margin-bottom: 10px
-				margin-top: 90px
+				margin-top: 30px
 
 				.chief_person-left
 					width: 100%
@@ -1586,7 +1383,8 @@ $portfolio_pad: 6 (80px 40px) split
 					justify-content: space-between
 					align-items: center
 					padding: 20px
-					background-image: linear-gradient(to bottom, #f1f200, #dee100)
+					background: #FFF
+					// background-image: linear-gradient(to bottom, #f1f200, #dee100)
 					.chief_person-des
 						width: 55%
 						display: flex
@@ -1595,24 +1393,24 @@ $portfolio_pad: 6 (80px 40px) split
 						align-items: flex-end
 						.t-line
 							width: 140px
-							height: 2px
+							height: 1px
 							background: #000
 							margin: 20px 0
 						.cheif_sign
 							margin-top: 50px
 
 						h5 
-							text-align: right
+							text-align: left
 							font-size: 16px
 							color: #000
 
 						h6 
-							text-align: right
+							text-align: left
 							font-size: 32px
 							color: #000
 
 						p 
-							text-align: right
+							text-align: left
 							color: #000
 							line-height: 2
 					.chief_person-img
@@ -1625,7 +1423,8 @@ $portfolio_pad: 6 (80px 40px) split
 					justify-content: space-between
 					align-items: center
 					padding: 20px
-					background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b)
+					background: #FFF
+					// background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b)
 					.chief_person-des
 						width: 55%
 						display: flex
@@ -1634,8 +1433,8 @@ $portfolio_pad: 6 (80px 40px) split
 						align-items: flex-start
 						.t-line
 							width: 140px
-							height: 2px
-							background: #dee100
+							height: 1px
+							background: #000
 							margin: 20px 0
 						.cheif_sign
 							margin-top: 50px
@@ -1714,6 +1513,7 @@ $portfolio_pad: 6 (80px 40px) split
 			font-size: 32px
 			font-family: "source-serif-pro", "source-han-serif-tc", serif
 			color: #FFF
+			margin-bottom: 30px
 		.y-slash
 			width: 200px
 			height: 16px
@@ -1736,7 +1536,7 @@ $portfolio_pad: 6 (80px 40px) split
 			flex-direction: row
 			justify-content: space-between
 			align-items: center
-			margin-bottom: 80px
+			margin-bottom: 150px
 			img
 				display: block
 				width: 45%
@@ -1756,7 +1556,7 @@ $portfolio_pad: 6 (80px 40px) split
 
 		.members
 			position: relative
-			
+			margin-bottom: 150px
 			.y-slash
 				position: absolute
 				top: 100px
@@ -1769,7 +1569,7 @@ $portfolio_pad: 6 (80px 40px) split
 				font-size: 15px
 				color: #FFF
 				margin-bottom: 80px
-				margin-top: 90px
+				margin-top: 30px
 
 
 			.chief_members
@@ -1778,7 +1578,7 @@ $portfolio_pad: 6 (80px 40px) split
 				justify-content: center
 				align-items: center
 				margin-bottom: 10px
-				margin-top: 90px
+				margin-top: 30px
 
 				.chief_person-left
 					width: 50%
@@ -1788,7 +1588,9 @@ $portfolio_pad: 6 (80px 40px) split
 					justify-content: space-between
 					align-items: center
 					padding: 52px 35px 65px 69px
-					background-image: linear-gradient(to bottom, #f1f200, #dee100)
+					background: #FFF
+					margin-right: 5px
+					// background-image: linear-gradient(to bottom, #f1f200, #dee100)
 					.chief_person-des
 						width: 50%
 						display: flex
@@ -1797,24 +1599,24 @@ $portfolio_pad: 6 (80px 40px) split
 						align-items: flex-end
 						.t-line
 							width: 140px
-							height: 2px
+							height: 1px
 							background: #000
 							margin: 20px 0
 						.cheif_sign
 							margin-top: 100px
 
 						h5 
-							text-align: right
+							text-align: left
 							font-size: 16px
 							color: #000
 
 						h6 
-							text-align: right
+							text-align: left
 							font-size: 32px
 							color: #000
 
 						p 
-							text-align: right
+							text-align: left
 							color: #000
 							line-height: 2
 					.chief_person-img
@@ -1828,7 +1630,9 @@ $portfolio_pad: 6 (80px 40px) split
 					justify-content: space-between
 					align-items: center
 					padding: 52px 35px 65px 69px
-					background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b)
+					background: #FFF
+					margin-left: 5px
+					// background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b)
 					.chief_person-des
 						width: 50%
 						display: flex
@@ -1837,8 +1641,8 @@ $portfolio_pad: 6 (80px 40px) split
 						align-items: flex-start
 						.t-line
 							width: 140px
-							height: 2px
-							background: #dee100
+							height: 1px
+							background: #000
 							margin: 20px 0
 						.cheif_sign
 							margin-top: 100px
