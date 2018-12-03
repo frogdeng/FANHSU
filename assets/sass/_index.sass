@@ -1,7 +1,6 @@
 @import "bourbon"
 @import "susy"
 @import _map.scss
-@import url('https://fonts.googleapis.com/earlyaccess/cwtexming.css')
 
 
 // shorthand
@@ -60,7 +59,7 @@ $this_yellow: #dee100
 					h6
 						color: #FFF
 						font-size: 16px
-						font-family: "source-serif-pro", "source-han-serif-tc", serif			
+						font-family: ‘cwTeXMing’, serif 
 						font-weight: 500
 						margin-bottom: 20px
 						letter-spacing: 5px
@@ -116,7 +115,7 @@ $this_yellow: #dee100
 					h6
 						color: #FFF
 						font-size: 28px
-						font-family: "source-serif-pro", "source-han-serif-tc", serif			
+						font-family: ‘cwTeXMing’, serif	
 						font-weight: 500
 						margin-bottom: 20px
 						letter-spacing: 5px
@@ -146,7 +145,10 @@ $this_yellow: #dee100
 							opacity: 1
 						i 
 							color: #000
-
+						.bb-line
+							height: 1px
+							width: 25px
+							background: #000
 
 
 .director_info
@@ -183,7 +185,7 @@ $this_yellow: #dee100
 					h6 
 						font-size: 30px
 						color: #FFF
-						font-family: "source-serif-pro", "source-han-serif-tc", serif
+						// font-family: ‘cwTeXMing’, serif	
 						font-weight: 900
 
 					p 
@@ -214,7 +216,7 @@ $this_yellow: #dee100
 					display: block
 					width: 207px
 					
-		.cross
+		.cross_x
 			width: 70px
 			height: 70px
 			margin: 60px 0
@@ -227,7 +229,7 @@ $this_yellow: #dee100
 		display: flex
 		flex-direction: row
 		justify-content: center
-		align-items: center
+		align-items: flex-start
 		margin-top: 237px
 		margin-bottom: 400px
 		.director_person
@@ -239,6 +241,7 @@ $this_yellow: #dee100
 			padding: 0 70px
 			// background: #222
 			.director_intro
+				width: 100%
 				display: flex
 				flex-direction: row
 				justify-content: center
@@ -250,12 +253,12 @@ $this_yellow: #dee100
 					height: 125px
 					border-radius: 5px
 					background: #999
-					margin-right: 53px
+					margin-right: 15%
 				.header_des
 					h6 
 						font-size: 30px
 						color: #FFF
-						font-family: "source-serif-pro", "source-han-serif-tc", serif
+						font-family: ‘cwTeXMing’, serif	
 						font-weight: 500
 
 					p 
@@ -287,9 +290,13 @@ $this_yellow: #dee100
 					display: block
 					width: 207px
 					
-		.cross
+		.cross_x
 			width: 70px
-			height: 70px
+			height: 400px
+			display: flex
+			flex-direction: column
+			justify-content: flex-end
+			align-items: flex-end
 			img
 				display: block
 				width: 100%
