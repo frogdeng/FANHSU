@@ -1497,32 +1497,31 @@ a {
     color: #dee100; } }
 
 @media (min-width: 0) and (max-width: 990px) {
-  .contact_us {
+  .contact_us_page {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
     margin-top: 150px;
     margin-bottom: 160px; }
-  .contact_us:after {
+  .contact_us_page:after {
     content: " ";
     display: block;
     clear: both; }
-  .contact_us h3 {
+  .contact_us_page h3 {
     font-size: 15px;
     color: #000;
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 3px; }
-  .contact_us h2 {
+  .contact_us_page h2 {
     font-size: 25px;
     color: #000;
-    font-family: ‘cwTeXMing’, serif;
     margin-bottom: 20px;
-    font-weight: 900;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 3px; }
-  .contact_us .slash-y {
+  .contact_us_page .slash-y {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
@@ -1531,10 +1530,10 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center; }
-  .contact_us .slash-y img {
+  .contact_us_page .slash-y img {
     display: block;
     width: 85px; }
-  .contact_us .contact_info_bg {
+  .contact_us_page .contact_info_bg {
     background: rgba(0, 0, 0, 0.7);
     padding: 6px;
     display: -ms-flexbox;
@@ -1545,7 +1544,7 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center; }
-  .contact_us .contact_info_bg .contact_info {
+  .contact_us_page .contact_info_bg .contact_info {
     width: 100%;
     padding-top: 80px;
     background: #FFF;
@@ -1558,7 +1557,7 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center; }
-  .contact_us .contact_info_bg .contact_info .info_row {
+  .contact_us_page .contact_info_bg .contact_info .info_row {
     width: 90%;
     display: -ms-flexbox;
     display: flex;
@@ -1569,52 +1568,51 @@ a {
     -ms-flex-align: start;
     align-items: flex-start;
     margin-bottom: 18px; }
-  .contact_us .contact_info_bg .contact_info .info_row p {
+  .contact_us_page .contact_info_bg .contact_info .info_row p {
     color: #000;
     margin: 0px 0px;
     font-size: 15px; }
-  .contact_us .contact_info_bg .contact_info .info_row p span {
+  .contact_us_page .contact_info_bg .contact_info .info_row p span {
     margin-right: 20px; }
-  .contact_us .contact_info_bg .contact_info .info_row a {
+  .contact_us_page .contact_info_bg .contact_info .info_row a {
     color: #000; }
-  .contact_us .contact_info_bg .contact_info .google-map {
+  .contact_us_page .contact_info_bg .contact_info .google-map {
     width: 100%;
     height: 500px;
     margin-top: 90px;
     background: rgba(0, 0, 0, 0.7); }
-  .contact_us .contact_info_bg .contact_info .google-map iframe {
+  .contact_us_page .contact_info_bg .contact_info .google-map iframe {
     width: 100%;
     height: 500px; }
-  .contact_us .contact_info_bg .contact_info .mr-30 {
+  .contact_us_page .contact_info_bg .contact_info .mr-30 {
     width: 70px; } }
 
 @media (min-width: 991px) {
-  .contact_us {
+  .contact_us_page {
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
     margin-top: 100px;
     margin-bottom: 160px; }
-  .contact_us:after {
+  .contact_us_page:after {
     content: " ";
     display: block;
     clear: both; }
-  .contact_us h3 {
+  .contact_us_page h3 {
     font-size: 15px;
     color: #000;
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 3px; }
-  .contact_us h2 {
+  .contact_us_page h2 {
     font-size: 25px;
     color: #000;
-    font-family: ‘cwTeXMing’, serif;
     margin-bottom: 20px;
-    font-weight: 900;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 3px; }
-  .contact_us .slash-y {
+  .contact_us_page .slash-y {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
@@ -1623,12 +1621,12 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center; }
-  .contact_us .slash-y img {
+  .contact_us_page .slash-y img {
     display: block;
-    width: 85px; }
-  .contact_us .contact_info_bg {
+    width: 205px; }
+  .contact_us_page .contact_info_bg {
     background: rgba(0, 0, 0, 0.7);
-    padding: 6px;
+    padding: 1px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
@@ -1637,7 +1635,7 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center; }
-  .contact_us .contact_info_bg .contact_info {
+  .contact_us_page .contact_info_bg .contact_info {
     width: 100%;
     padding-top: 80px;
     background: #FFF;
@@ -1650,7 +1648,7 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center; }
-  .contact_us .contact_info_bg .contact_info .info_row {
+  .contact_us_page .contact_info_bg .contact_info .info_row {
     width: 40%;
     display: -ms-flexbox;
     display: flex;
@@ -1660,24 +1658,25 @@ a {
     justify-content: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    margin-bottom: 18px; }
-  .contact_us .contact_info_bg .contact_info .info_row p {
+    margin-bottom: 18px;
+    margin-left: 150px; }
+  .contact_us_page .contact_info_bg .contact_info .info_row p {
     color: #000;
     margin: 0px 0px;
     font-size: 20px; }
-  .contact_us .contact_info_bg .contact_info .info_row a {
+  .contact_us_page .contact_info_bg .contact_info .info_row a {
     color: #000; }
-  .contact_us .contact_info_bg .contact_info .google-map {
+  .contact_us_page .contact_info_bg .contact_info .google-map {
     width: 100%;
     height: 500px;
     margin-top: 90px;
     background: rgba(0, 0, 0, 0.7); }
-  .contact_us .contact_info_bg .contact_info .google-map iframe {
+  .contact_us_page .contact_info_bg .contact_info .google-map iframe {
     width: 100%;
     height: 500px; }
-  .contact_us .contact_info_bg .contact_info .google-map img {
+  .contact_us_page .contact_info_bg .contact_info .google-map img {
     display: block; }
-  .contact_us .contact_info_bg .contact_info .mr-30 {
+  .contact_us_page .contact_info_bg .contact_info .mr-30 {
     width: 100px; } }
 
 @media (min-width: 0) and (max-width: 990px) {
@@ -2673,11 +2672,42 @@ a {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: none; }
+    position: fixed;
+    width: 35px;
+    height: 50px;
+    cursor: pointer;
+    left: 26px;
+    top: 30px;
+    z-index: 2000; }
   .desktop_aside_menu:after {
     content: " ";
     display: block;
-    clear: both; } }
+    clear: both; }
+  .desktop_aside_menu .t-t {
+    display: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transform: scale(0.8);
+    margin-left: -4px;
+    color: #000; }
+  .desktop_aside_menu .a-l, .desktop_aside_menu .b-l {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #FFF;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    transition: all .5s ease;
+    transform: rotate(0deg) translate3d(0px, 0px, 0px); }
+  .desktop_aside_menu .c-l {
+    display: block;
+    width: 40%;
+    height: 1px;
+    background: #FFF;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    transition: all .5s ease;
+    transform: rotate(0deg) translate3d(0px, 0px, 0px); } }
 
 @media (min-width: 991px) {
   .desktop_aside_menu {
@@ -2685,12 +2715,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     position: fixed;
-    width: 35px;
-    height: 50px;
+    width: 50px;
+    height: 70px;
+    padding: 0 8px;
     cursor: pointer;
-    left: 26px;
-    top: 50%;
-    margin-top: -25px;
+    left: 20px;
+    top: 25%;
     z-index: 2000; }
   .desktop_aside_menu:after {
     content: " ";
@@ -2727,11 +2757,61 @@ a {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: none; }
+    display: block;
+    position: fixed;
+    width: 252px;
+    height: 400px;
+    background: white;
+    border: 2px solid #dee100;
+    transition: all .2s ease;
+    left: -255px;
+    top: 10%;
+    margin-top: 0px;
+    z-index: 1200;
+    overflow-x: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center; }
   .desktop_aside:after {
     content: " ";
     display: block;
-    clear: both; } }
+    clear: both; }
+  .desktop_aside ul li .m-first {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+    height: 55px;
+    width: 200px;
+    padding-right: 30px;
+    line-height: 1.4;
+    color: #000;
+    border-bottom: 1px dashed #eee; }
+  .desktop_aside ul li .m-first img {
+    width: 22px; }
+  .desktop_aside ul li .m-first .circle {
+    background: #000;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .desktop_aside ul li .m-first .circle i {
+    color: #FFF; } }
 
 @media (min-width: 991px) {
   .desktop_aside {
@@ -2746,8 +2826,8 @@ a {
     border: 2px solid #dee100;
     transition: all .2s ease;
     left: -255px;
-    top: 50%;
-    margin-top: -200px;
+    top: 25%;
+    margin-top: -100px;
     z-index: 1200;
     overflow-x: hidden;
     display: -ms-flexbox;
@@ -2803,7 +2883,7 @@ a {
   width: 100%;
   margin: 0 auto;
   height: 1px;
-  background: #000;
+  background: #222;
   margin-bottom: 6px;
   margin-top: 6px;
   transition: all .3s ease;
@@ -2814,7 +2894,7 @@ a {
   width: 100%;
   margin: 0 auto;
   height: 1px;
-  background: #000;
+  background: #222;
   margin-bottom: 6px;
   margin-top: 6px;
   transform: rotate(-330deg) translate3d(0px, 2px, 0px);
@@ -2825,7 +2905,7 @@ a {
   width: 100%;
   margin: 0 auto;
   height: 1px;
-  background: #000;
+  background: #222;
   margin-bottom: 6px;
   margin-top: 6px;
   transition: all .3s ease;
@@ -2837,7 +2917,7 @@ a {
 
 .bk_bg_show {
   display: block;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   left: 0;

@@ -169,19 +169,53 @@ header
 .desktop_aside_menu
 	+susy-breakpoint($breakpoint_pad, $w_pad)
 		+container
-		display: none
-
-
-	+susy-breakpoint($breakpoint_desktop, $w_desktop)
-		+container
 		position: fixed
 		width: 35px
 		height: 50px
 		// background: yellow
 		cursor: pointer
 		left: 26px
-		top: 50%
-		margin-top: -25px
+		top: 30px
+		z-index: 2000
+		.t-t
+			display: none
+			font-size: 12px
+			letter-spacing: 2px
+			transform: scale(.8)
+			margin-left: -4px
+			color: #000
+			// text-align: left
+		.a-l, .b-l, 
+			display: block
+			width: 100%
+			height: 1px
+			background: #FFF
+			margin-bottom: 10px
+			margin-top: 5px
+			transition: all .5s ease
+			transform: rotate(0deg) translate3d(0px, 0px, 0px)
+		.c-l
+			display: block
+			width: 40%
+			height: 1px
+			background: #FFF
+			margin-bottom: 8px
+			margin-top: 5px
+			transition: all .5s ease
+			transform: rotate(0deg) translate3d(0px, 0px, 0px)
+
+
+	+susy-breakpoint($breakpoint_desktop, $w_desktop)
+		+container
+		position: fixed
+		width: 50px
+		height: 70px
+		padding: 0 8px
+		// background: #fbfbfb
+		cursor: pointer
+		left: 20px
+		top: 25%
+		// margin-top: -25px
 		z-index: 2000
 		.t-t
 			display: inline-block
@@ -214,7 +248,49 @@ header
 .desktop_aside
 	+susy-breakpoint($breakpoint_pad, $w_pad)
 		+container
-		display: none
+		display: block
+		position: fixed
+		width: 252px
+		height: 400px
+		background: rgba(255,255,255, 1)
+		border: 2px solid $this_yellow
+		transition: all .2s ease
+		left: -255px
+		top: 10%
+		margin-top: 0px
+		z-index: 1200
+		overflow-x: hidden
+		// padding-left: 100px
+		display: flex
+		flex-direction: row
+		justify-content: flex-end
+		align-items: center
+		ul
+			li
+				.m-first
+					display: flex
+					justify-content: space-between
+					align-items: center
+					font-size: 15px
+					height: 55px
+					width: 200px
+					padding-right: 30px
+					line-height: 1.4
+					color: #000
+					border-bottom: 1px dashed #eee
+					img
+						width: 22px
+					.circle
+						background: #000
+						width: 25px
+						height: 25px
+						border-radius: 50%
+						display: flex
+						flex-direction: row
+						justify-content: center
+						align-items: center
+						i 
+							color: #FFF
 
 
 	+susy-breakpoint($breakpoint_desktop, $w_desktop)
@@ -227,8 +303,8 @@ header
 		border: 2px solid $this_yellow
 		transition: all .2s ease
 		left: -255px
-		top: 50%
-		margin-top: -200px
+		top: 25%
+		margin-top: -100px
 		z-index: 1200
 		overflow-x: hidden
 		// padding-left: 100px
@@ -277,7 +353,7 @@ header
 		width: 100%
 		margin: 0 auto
 		height: 1px
-		background: #000
+		background: #222
 		margin-bottom: 6px
 		margin-top: 6px
 		transition: all .3s ease
@@ -287,7 +363,7 @@ header
 		width: 100%
 		margin: 0 auto
 		height: 1px
-		background: #000
+		background: #222
 		margin-bottom: 6px
 		margin-top: 6px
 		transition(all .2s ease)
@@ -299,7 +375,7 @@ header
 		width: 100%
 		margin: 0 auto
 		height: 1px
-		background: #000
+		background: #222
 		margin-bottom: 6px
 		margin-top: 6px
 		transition: all .3s ease
@@ -310,11 +386,13 @@ header
 
 .bk_bg
 	display: none
+	
+	
 
 
 .bk_bg_show
 	display: block
-	position: absolute
+	position: fixed
 	width: 100%
 	height: 100%
 	left: 0
