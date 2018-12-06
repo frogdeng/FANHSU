@@ -672,6 +672,20 @@ $pad_works: 6 (70px 40px) split
 
 $self_yellow: #dee100
 
+
+.works_wrapper
+	+susy-breakpoint($breakpoint_pad, $pad_works)
+		+container
+		padding: 20px
+
+	+susy-breakpoint($breakpoint_desktop, $desktop_works)
+		+container
+		padding: 20px 20px 20px 90px 
+
+
+
+
+
 .works_fun_section
 	+susy-breakpoint($breakpoint_pad, $pad_works)
 		+container
@@ -737,6 +751,7 @@ $self_yellow: #dee100
 			justify-content: space-between
 			align-items: center
 			margin-top: 100px
+
 			.works_menu
 				display: flex
 				flex-direction: row
@@ -964,6 +979,7 @@ $self_yellow: #dee100
 		padding: 0 20px
 		margin-top: 100px
 		margin-bottom: 160px
+		padding-left: 90px
 		h3
 			font-size: 15px
 			color: #000
@@ -1235,6 +1251,7 @@ $portfolio_pad: 6 (80px 40px) split
 	+susy-breakpoint($breakpoint_desktop, $portfolio_desktop)
 		+container
 		margin-top: 100px
+		padding-left: 90px
 		img
 			width: 100%
 			display: block
@@ -1518,7 +1535,8 @@ $portfolio_pad: 6 (80px 40px) split
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
 		margin-top: 100px
-		padding: 20px
+		padding: 40px
+		padding-left: 90px
 		h5
 			font-size: 12px
 			color: #FFF

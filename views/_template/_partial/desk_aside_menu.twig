@@ -1,5 +1,8 @@
 
-<div class="desktop_aside_menu">
+<!-- <div class="desktop_aside_menu"> -->
+<div  {% if menu_select == 'white' %} class="desktop_aside_menu_w" {% endif %}
+{% if menu_select == 'black' %} class="desktop_aside_menu" {% endif %}
+>
 	<div class="t-t">MENU</div>
 	<div class="a-l"></div>
 	<div class="b-l"></div>
