@@ -5,22 +5,57 @@
 
 {% include '_template/_partial/top_menu_wh-bg.twig' %}
 
+
+
+<script>
+$(document).ready(function(){
+  var strUrl = location.search;
+  if (strUrl.indexOf("?") != -1) {
+
+    var getSearch = strUrl.split("=");
+    var thispage = getSearch[1]
+
+    console.log(getSearch)
+    console.log(typeof(thispage))
+    // getPara = getSearch[1].split("&");
+    // for (i = 0; i < getPara.length; i++) {
+    //   ParaVal = getPara[i].split("=");
+    //   aryPara.push(ParaVal[0]);
+    //   aryPara[ParaVal[0]] = ParaVal[1];
+    // }
+    // console.log(aryPara.id)
+  }
+
+  console.log(thispage)
+
+  var imgUrl_1 = '<img src="\{\{portfolio_a.' + thispage + '[0].photo_1\}\}" alt="">' 
+
+  console.log(imgUrl_1)
+
+  // $('.item_col-12').html(imgUrl_1);
+
+
+
+});
+
+
+
+
+</script>
+
+
+
 	
 <div class="portfolio_layout_module">
 
-
-
-<!-- 	<h2>{{portfolio_a.name}}</h2>
-	<h2>{{portfolio_a.description}}</h2>
-	<h2>{{portfolio_a.main}}</h2>
- -->
-
-
 	<div class="grid-container">
-		<div class="item_col-12"><img src="{{portfolio_a.list_1[0].photo_1}}" alt=""></div>
+		<!-- <div class="item_col-12"><img src="{{portfolio_a.list_1[0].photo_1}}" alt=""></div> -->
+		<div class="item_col-12"></div>
+
 		<div class="item_col-3"><img src="{{portfolio_a.list_1[0].photo_2}}" alt=""></div>
 		<div class="item_col-3"><img src="{{portfolio_a.list_1[0].photo_3}}" alt=""></div>
 		<div class="item_col-3"><img src="{{portfolio_a.list_1[0].photo_4}}" alt=""></div>
+		<div class="item_col-3"><img src="{{portfolio_a.list_1[0].photo_5}}" alt=""></div>
 	</div>
 
 

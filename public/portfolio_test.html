@@ -76,22 +76,57 @@
 	</div>
 </div>
 </div>
+
+
+<script>
+$(document).ready(function(){
+  var strUrl = location.search;
+  if (strUrl.indexOf("?") != -1) {
+
+    var getSearch = strUrl.split("=");
+    var thispage = getSearch[1]
+
+    console.log(getSearch)
+    console.log(typeof(thispage))
+    // getPara = getSearch[1].split("&");
+    // for (i = 0; i < getPara.length; i++) {
+    //   ParaVal = getPara[i].split("=");
+    //   aryPara.push(ParaVal[0]);
+    //   aryPara[ParaVal[0]] = ParaVal[1];
+    // }
+    // console.log(aryPara.id)
+  }
+
+  console.log(thispage)
+
+  var imgUrl_1 = '<img src="\{\{portfolio_a.' + thispage + '[0].photo_1\}\}" alt="">' 
+
+  console.log(imgUrl_1)
+
+  // $('.item_col-12').html(imgUrl_1);
+
+
+
+});
+
+
+
+
+</script>
+
+
+
 	
 <div class="portfolio_layout_module">
 
-
-
-<!-- 	<h2></h2>
-	<h2></h2>
-	<h2></h2>
- -->
-
-
 	<div class="grid-container">
-		<div class="item_col-12"><img src="img/works/layout_a_works_01.jpg" alt=""></div>
+		<!-- <div class="item_col-12"><img src="img/works/layout_a_works_01.jpg" alt=""></div> -->
+		<div class="item_col-12"></div>
+
 		<div class="item_col-3"><img src="img/works/layout_b_works01-p2.png" alt=""></div>
 		<div class="item_col-3"><img src="img/works/layout_b_works01-p3.png" alt=""></div>
 		<div class="item_col-3"><img src="img/works/layout_b_works01-p4.png" alt=""></div>
+		<div class="item_col-3"><img src="img/works/layout_b_works01-p5.png" alt=""></div>
 	</div>
 
 
