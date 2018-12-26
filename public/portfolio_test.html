@@ -86,8 +86,6 @@ $(document).ready(function(){
     var getSearch = strUrl.split("=");
     var thispage = getSearch[1]
 
-    console.log(getSearch)
-    console.log(typeof(thispage))
     // getPara = getSearch[1].split("&");
     // for (i = 0; i < getPara.length; i++) {
     //   ParaVal = getPara[i].split("=");
@@ -95,26 +93,34 @@ $(document).ready(function(){
     //   aryPara[ParaVal[0]] = ParaVal[1];
     // }
     // console.log(aryPara.id)
+      // console.log(thispage)
+
+
+     var aaa = "禮盒正面飛揚的雙重錯位雙色燙金，以野蜂飛行的8字形路徑創意發想，營造出如同花粉散落紛飛的視覺變化。盒圓形孔洞模仿野蜂在外採蜜後進入蜂箱的通道，蜂蜜禮盒彷彿真正蜂箱，打開便是新鮮蜂蜜。"
+     console.log(aaa)
+
+
+
+ 	 var x = document.createElement("IMG");
+     x.setAttribute("src", " img/works/layout_b_works01-p2.png ");
+     $('.item_col-12').html(x);	
+ 	
   }
 
-  console.log(thispage)
 
-  var imgUrl_1 = '<img src="\{\{portfolio_a.' + thispage + '[0].photo_1\}\}" alt="">' 
 
-  console.log(imgUrl_1)
 
+  // var imgUrl_1 = '<img src="\{\{portfolio_a.' + thispage + '[0].photo_1\}\}" alt="">' 
+  // console.log(imgUrl_1)
   // $('.item_col-12').html(imgUrl_1);
-
 
 
 });
 
-
-
-
 </script>
 
 
+<img src="" alt="">	
 
 	
 <div class="portfolio_layout_module">
