@@ -1,0 +1,92 @@
+{# index.twig #}
+{% extends "/_template/layout_white.twig" %}
+{% block page %}
+
+
+
+{% include '_template/_partial/top_menu_wh-bg.twig' %}
+
+
+
+<script>
+$(document).ready(function(){
+	$.getJSON("../_data/portfolio_a.json", function(data){
+
+		 var strUrl = location.search;
+ 		 if (strUrl.indexOf("?") != -1) {
+
+		    var getSearch = strUrl.split("=");
+		    var thispage = getSearch[1]	
+
+		    console.log(thispage)
+
+		    // link = 'data.' + thispage + '[0].photo_1'
+		   	// console.log(typeof(link))
+
+		}
+
+		let aaa =  'data.' + thispage + '[0].photo_2'
+		let bbb = data.books_01[0].photo_1
+
+		console.log(aaa)
+		console.log(bbb)
+
+		var x = document.createElement("IMG");
+	     x.setAttribute("src", bbb);
+	     $('.item_col-12').html(x);	
+
+  });
+
+
+});
+
+</script>
+
+
+
+<div class="portfolio_layout_module">
+
+
+	<div class="grid-container">
+		<div class="item_col-12"></div>
+		<div class="item_col-4">
+			<img src="{{portfolio_a.books_01[0].photo_2}}" alt="">
+			<img src="{{portfolio_a.books_01[0].photo_3}}" alt="">
+		</div>
+		<div class="item_col-8">
+			<img src="{{portfolio_a.books_01[0].photo_4}}" alt="">
+		</div>
+		</div>
+			
+	
+	</div>
+
+
+
+
+	<div class="layout_a_description_bg">
+		<div class="layout_a_description">
+			<h4>{{portfolio_a.books_01[0].product_title}}</h4>
+			<div class="d-line"></div>
+			<h6>{{portfolio_a.books_01[0].product_intro}}</h6>
+
+			<p>{{portfolio_a.books_01[0].product_description}}</p>
+
+			<a href="" class="goback">BACK</a>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}x

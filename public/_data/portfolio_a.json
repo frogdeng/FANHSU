@@ -1,29 +1,28 @@
 {
 
-    "list_1": [
+    "books_01": [
         {
-            "photo_1": "img/works/layout_a_works_01.jpg",
-            "photo_2": "img/works/layout_b_works01-p2.png",
-            "photo_3": "img/works/layout_b_works01-p3.png",
-            "photo_4": "img/works/layout_b_works01-p4.png",
-            "photo_5": "img/works/layout_b_works01-p5.png",
+            "photo_1": "img/works/books/books_01/1.png",
+            "photo_2": "img/works/books/books_01/2.png",
+            "photo_3": "img/works/books/books_01/3.png",
+            "photo_4": "img/works/books/books_01/4.png",
 
-            "product_title": "野蜂逐花 蜂蜜禮盒",
+            "product_title": "台灣農會史",
             "product_intro": "禮盒正面飛揚的雙重錯位雙色燙金，以野蜂飛行的8字形路徑創意發想，營造出如同花粉散落紛飛的視覺變化。盒圓形孔洞模仿野蜂在外採蜜後進入蜂箱的通道，蜂蜜禮盒彷彿真正蜂箱，打開便是新鮮蜂蜜。",
             "product_description": " <p>台灣東北角風景宜人，海岸線變化萬千，遠近山層疊如畫。昔日繁華隨礦而竭，農工百業日趨沈寂，或許少了人聲擾嚷，卻多了野蜂嗡嗡。無農藥化肥、無工業污染的自然環境，四季森林百花開，六月紅淡花飄香，野蜂樂居逐花忙，或許繁華起落有時，欣見萬物生生不息。野蜂靠老天爺吃飯，繁花盛開，才有蜜源；氣候正常，才能繁衍，滴滴野蜂蜜都珍貴。 <\/p>\n  <p>盒形體利用蜂箱概念發想，盒圓形孔洞的地方是野蜂在外採蜜後進入蜂箱的通道。盒形上飛揚的雙重錯位雙色燙金，是以野蜂飛行的8字形路徑創意發想，營造出如同花粉散落紛飛的視覺變化，蜂蜜禮盒彷彿真正蜂箱，打開便是新鮮蜂蜜。 <\/p>\n ",
             "product_test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
         }
     ],
 
-    "list_2": [
-        {
-            "photo_1": "img/works/layout_b_works01-p3.png",
-            "photo_2": "img/works/layout_b_works01-p2.png",
-            "photo_3": "img/works/layout_b_works01-p3.png",
-            "photo_4": "img/works/layout_b_works01-p4.png",
-            "photo_5": "img/works/layout_b_works01-p5.png",
 
-            "product_title": "野蜂逐花 蜂蜜禮盒",
+    "books_02": [
+        {
+            "photo_1": "img/works/books/books_02/1.png",
+            "photo_2": "img/works/books/books_02/2.png",
+            "photo_3": "img/works/books/books_02/3.png",
+            "photo_4": "img/works/books/books_02/4.png",
+
+            "product_title": "台灣農會史",
             "product_intro": "禮盒正面飛揚的雙重錯位雙色燙金，以野蜂飛行的8字形路徑創意發想，營造出如同花粉散落紛飛的視覺變化。盒圓形孔洞模仿野蜂在外採蜜後進入蜂箱的通道，蜂蜜禮盒彷彿真正蜂箱，打開便是新鮮蜂蜜。",
             "product_description": " <p>台灣東北角風景宜人，海岸線變化萬千，遠近山層疊如畫。昔日繁華隨礦而竭，農工百業日趨沈寂，或許少了人聲擾嚷，卻多了野蜂嗡嗡。無農藥化肥、無工業污染的自然環境，四季森林百花開，六月紅淡花飄香，野蜂樂居逐花忙，或許繁華起落有時，欣見萬物生生不息。野蜂靠老天爺吃飯，繁花盛開，才有蜜源；氣候正常，才能繁衍，滴滴野蜂蜜都珍貴。 <\/p>\n  <p>盒形體利用蜂箱概念發想，盒圓形孔洞的地方是野蜂在外採蜜後進入蜂箱的通道。盒形上飛揚的雙重錯位雙色燙金，是以野蜂飛行的8字形路徑創意發想，營造出如同花粉散落紛飛的視覺變化，蜂蜜禮盒彷彿真正蜂箱，打開便是新鮮蜂蜜。 <\/p>\n ",
             "product_test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
