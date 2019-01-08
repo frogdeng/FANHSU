@@ -1,0 +1,80 @@
+{# index.twig #}
+{% extends "/_template/layout_white.twig" %}
+{% block page %}
+
+
+{% include '_template/_partial/top_menu_wh-bg.twig' %}
+
+<script>
+$(document).ready(function(){
+	$.getJSON("../_data/_visual.json", function(data){
+
+		 var strUrl = location.search;
+ 		 if (strUrl.indexOf("?") != -1) {
+
+		    var getSearch = strUrl.split("=");
+		    var thispage = getSearch[1]	
+		    // console.log(thispage)
+		    // link = 'data.' + thispage + '[0].photo_1'
+		   	// console.log(typeof(link))
+		}
+
+
+		var _data = data
+
+		// console.log(_data)
+		let imgLink_1 = _data[thispage][0].photo_1
+
+
+		let _title = _data[thispage][0].thistitle
+		let _intro = _data[thispage][0].intro
+		let _description = _data[thispage][0].description
+
+		// console.log(_title)
+
+
+		var photo_1 = document.createElement("IMG");
+	     photo_1.setAttribute("src", imgLink_1);
+	     $('.img-box-1').html(photo_1);	
+
+
+	    $('.this_description > h4').html(_title);	
+	    $('.this_description > h6').html(_intro);	
+	    $('.this_description > p').html(_description);	
+
+  });
+
+
+});
+
+</script>
+
+<div class="portfolio_layout_publish">
+	
+	<div class="this_project">
+
+		<div class="this_image">
+			<div class="img-box-1"></div>
+		</div>
+
+		<div class="this_description">
+			<h4></h4>
+			<div class="d-line"></div>
+			<h6></h6>
+			<p></p>
+		</div>
+	</div>
+	
+
+</div>
+	
+
+
+
+
+
+
+
+
+
+{% endblock %}x
