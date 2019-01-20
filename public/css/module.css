@@ -1416,7 +1416,9 @@ a {
     cursor: pointer;
     transition: all .2s; }
   .works_fun_section .woks_filter .works_menu .filter_button_item:hover {
-    color: #dee100; }
+    color: #dee100;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline; }
   .works_fun_section .woks_filter .works_menu ul {
     display: -ms-flexbox;
     display: flex;
@@ -1592,7 +1594,8 @@ a {
     width: 100%;
     padding-top: 80px;
     background: #FFF;
-    border-radius: 27px 27px 0 0;
+    border-radius: 27px;
+    overflow: hidden;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1684,7 +1687,7 @@ a {
     width: 100%;
     padding-top: 80px;
     background: #FFF;
-    border-radius: 27px 27px 0 0;
+    border-radius: 27px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1692,7 +1695,8 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    overflow: hidden; }
   .contact_us_page .contact_info_bg .contact_info .info_row {
     width: 40%;
     display: -ms-flexbox;
@@ -1758,11 +1762,11 @@ a {
   .layout_a_description_bg .layout_a_description h4 {
     color: #000;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 3px; }
   .layout_a_description_bg .layout_a_description h6 {
     color: #000;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: 2px;
     margin-bottom: 50px; }
   .layout_a_description_bg .layout_a_description p {
@@ -1825,11 +1829,11 @@ a {
   .layout_a_description_bg .layout_a_description h4 {
     color: #000;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 3px; }
   .layout_a_description_bg .layout_a_description h6 {
     color: #000;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: 2px;
     margin-bottom: 50px; }
   .layout_a_description_bg .layout_a_description p {
@@ -1991,7 +1995,6 @@ a {
   .portfolio_layout_module .grid-container .item_col-4 {
     -ms-grid-column: 1;
     grid-column: 1;
-    margin-bottom: 10px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -2078,7 +2081,6 @@ a {
   .portfolio_layout_module .grid-container .item_col-4 {
     -ms-grid-column: span 4;
     grid-column: span 4;
-    margin-bottom: 10px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -2143,7 +2145,6 @@ a {
     color: #FFF; }
   .about h6 {
     font-size: 29px;
-    font-family: ‘cwTeXMing’, serif;
     color: #FFF; }
   .about .y-slash {
     width: 200px;
@@ -2373,7 +2374,6 @@ a {
     color: #FFF; }
   .about h6 {
     font-size: 29px;
-    font-family: ‘cwTeXMing’, serif;
     color: #FFF;
     margin-bottom: 5px; }
   .about .vertical_line {
@@ -2606,6 +2606,7 @@ a {
 body {
   background: #000;
   font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
+  font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
   line-height: 1.5; }
 
