@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -142,7 +141,7 @@ table {
   border-spacing: 0; }
 
 html {
-  font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
+  font-family: 'Helvetica', 'Noto Sans', sans-serif, Microsoft JhengHei;
   line-height: 1;
   font-size: 16px; }
 
@@ -219,8 +218,7 @@ a {
   .inex_des .link_style .inex_des_block .index_des_mask h6 {
     color: #FFF;
     font-size: 16px;
-    font-family: ‘cwTeXMing’, serif;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 20px;
     letter-spacing: 5px; }
   .inex_des .link_style .inex_des_block .index_des_mask p {
@@ -286,8 +284,7 @@ a {
   .inex_des .link_style .inex_des_block .index_des_mask h6 {
     color: #FFF;
     font-size: 28px;
-    font-family: ‘cwTeXMing’, serif;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 20px;
     letter-spacing: 5px; }
   .inex_des .link_style .inex_des_block .index_des_mask p {
@@ -462,7 +459,6 @@ a {
   .director_info .director_person .director_intro .header_des h6 {
     font-size: 30px;
     color: #FFF;
-    font-family: ‘cwTeXMing’, serif;
     font-weight: 500; }
   .director_info .director_person .director_intro .header_des p {
     font-size: 15px;
@@ -1485,12 +1481,12 @@ a {
     margin-bottom: 10px; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des h6 {
     font-size: 25px;
-    font-family: ‘cwTeXMing’, serif;
-    font-weight: 900;
+    font-weight: 400;
     margin-bottom: 10px; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des p {
     font-size: 12px;
-    color: #888787; }
+    color: #888787;
+    font-weight: 200; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des .arrow_right {
     float: right;
     font-size: 21px;
@@ -1530,12 +1526,12 @@ a {
     margin-bottom: 10px; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des h6 {
     font-size: 25px;
-    font-family: ‘cwTeXMing’, serif;
-    font-weight: 900;
+    font-weight: 400;
     margin-bottom: 10px; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des p {
     font-size: 12px;
-    color: #888787; }
+    color: #888787;
+    font-weight: 200; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des .arrow_right {
     width: 23px;
     float: right;
@@ -2145,7 +2141,8 @@ a {
     color: #FFF; }
   .about h6 {
     font-size: 29px;
-    color: #FFF; }
+    color: #FFF;
+    font-weight: 300; }
   .about .y-slash {
     width: 200px;
     height: 16px;
@@ -2188,7 +2185,8 @@ a {
   .about .about_description .brand_concept p {
     font-size: 15px;
     color: #888787;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-weight: 200; }
   .about .members {
     position: relative;
     margin-bottom: 150px; }
@@ -2205,7 +2203,7 @@ a {
     color: #FFF;
     margin-bottom: 80px;
     margin-top: 5px;
-    font-weight: 400;
+    font-weight: 200;
     color: #888787; }
   .about .members .chief_members {
     display: -ms-flexbox;
@@ -2255,12 +2253,12 @@ a {
     text-align: left;
     font-size: 32px;
     color: #000;
-    font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
     font-weight: 300; }
   .about .members .chief_members .chief_person-left .chief_person-des p {
     text-align: left;
     color: #000;
-    line-height: 2; }
+    line-height: 2;
+    font-weight: 200; }
   .about .members .chief_members .chief_person-left .chief_person-img {
     width: 40%; }
   .about .members .chief_members .chief_person-right {
@@ -2300,12 +2298,12 @@ a {
     text-align: left;
     font-size: 32px;
     color: #000;
-    font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
     font-weight: 300; }
   .about .members .chief_members .chief_person-right .chief_person-des p {
     text-align: left;
     color: #000;
-    line-height: 2; }
+    line-height: 2;
+    font-weight: 200; }
   .about .members .chief_members .chief_person-right .chief_person-img {
     width: 40%; }
   .about .members .our_members {
@@ -2354,7 +2352,6 @@ a {
   .about .members .our_members .to_flex .our_members_item .mask h6 {
     color: #000;
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
     font-weight: 300; } }
 
 @media (min-width: 991px) {
@@ -2375,6 +2372,7 @@ a {
   .about h6 {
     font-size: 29px;
     color: #FFF;
+    font-weight: 300;
     margin-bottom: 5px; }
   .about .vertical_line {
     height: 100px;
@@ -2425,7 +2423,8 @@ a {
   .about .about_description .brand_concept p {
     font-size: 15px;
     color: #888787;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-weight: 200; }
   .about .members {
     position: relative;
     margin-bottom: 150px; }
@@ -2442,7 +2441,7 @@ a {
     color: #FFF;
     margin-bottom: 80px;
     margin-top: 5px;
-    font-weight: 400;
+    font-weight: 200;
     color: #888787; }
   .about .members .chief_members {
     display: -ms-flexbox;
@@ -2494,12 +2493,12 @@ a {
     text-align: left;
     font-size: 32px;
     color: #000;
-    font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
     font-weight: 300; }
   .about .members .chief_members .chief_person-left .chief_person-des p {
     text-align: left;
     color: #000;
-    line-height: 2; }
+    line-height: 2;
+    font-weight: 200; }
   .about .members .chief_members .chief_person-left .chief_person-img {
     width: 40%; }
   .about .members .chief_members .chief_person-right {
@@ -2541,12 +2540,12 @@ a {
     text-align: left;
     font-size: 32px;
     color: #000;
-    font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
     font-weight: 300; }
   .about .members .chief_members .chief_person-right .chief_person-des p {
     text-align: left;
     color: #000;
-    line-height: 2; }
+    line-height: 2;
+    font-weight: 200; }
   .about .members .chief_members .chief_person-right .chief_person-img {
     width: 40%; }
   .about .members .our_members {
@@ -2594,7 +2593,6 @@ a {
   .about .members .our_members .to_flex .our_members_item .mask h6 {
     color: #000;
     font-size: 24px;
-    font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
     font-weight: 300; } }
 
 .p-1 {
@@ -2605,8 +2603,7 @@ a {
 
 body {
   background: #000;
-  font-family: 'Noto Sans', sans-serif, Microsoft JhengHei;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Helvetica', 'Noto Sans', sans-serif, Microsoft JhengHei;
   overflow-x: hidden;
   line-height: 1.5; }
 
