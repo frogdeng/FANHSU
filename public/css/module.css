@@ -1736,7 +1736,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     background: rgba(0, 0, 0, 0.7);
-    padding: 6px;
+    padding: 1px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1803,7 +1803,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     background: rgba(0, 0, 0, 0.7);
-    padding: 6px;
+    padding: 1px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -2803,7 +2803,13 @@ a {
     -ms-flex-pack: end;
     justify-content: flex-end;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
+  .header_body .this_wrapper .slogen {
+    width: 330px;
+    position: absolute;
+    top: 100px;
+    left: 100px; }
   .header_body .this_wrapper .logo {
     width: 400px;
     height: 238px;
