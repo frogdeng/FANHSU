@@ -3174,7 +3174,8 @@ a {
 .inside_header_pos {
   width: 100%;
   position: absolute;
-  top: 33px; }
+  top: 33px;
+  z-index: 1500; }
 
 @media (min-width: 0) and (max-width: 990px) {
   .inside_header {
