@@ -105,7 +105,7 @@ $(document).ready(function(){
 			<!-- package -->
 			{% for key, value in _package %}
 				<a href="{{value[0].link}}">
-					<div class="element_item transition filter__package" " data-category="transition">
+					<div class="element_item transition filter__package" data-category="transition">
 						<div class="works_block">
 							<div class="pic">
 								<img src={{value[0].photo_index}} alt="">
@@ -124,11 +124,72 @@ $(document).ready(function(){
 			{% endfor %}
 
 			
+			<!-- ============== [視覺] ============== -->
+			<!-- visual -->
+			{% for key, value in _visual %}
+				<a href="{{value[0].link}}">
+					<div class="element_item transition filter__visual" data-category="transition">
+						<div class="works_block">
+							<div class="pic">
+								<img src={{value[0].photo_index}} alt="">
+								<!-- <img src="img/y-slash.png" alt=""> -->
+							</div>
+							<div class="works_des">
+								<h5>Taiwan / Taipei</h5>
+								<h6>{{value[0].thistitle}}</h6>
+								<p>{{value[0].intro}}</p>
+								<div class="arrow_right"><img src="img/h-arrow.svg" alt=""></div>
+							</div>
 
+						</div>
+					</div>
+				</a>
+			{% endfor %}
 		
 	
+			<!-- ============== [空間] ============== -->
+			<!-- visual -->
+			{% for key, value in _interiordesign %}
+				<a href="{{value[0].link}}">
+					<div class="element_item transition filter__space" data-category="transition">
+						<div class="works_block">
+							<div class="pic">
+								<img src={{value[0].photo_index}} alt="">
+								<!-- <img src="img/y-slash.png" alt=""> -->
+							</div>
+							<div class="works_des">
+								<h5>Taiwan / Taipei</h5>
+								<h6>{{value[0].thistitle}}</h6>
+								<p>{{value[0].intro}}</p>
+								<div class="arrow_right"><img src="img/h-arrow.svg" alt=""></div>
+							</div>
 
+						</div>
+					</div>
+				</a>
+			{% endfor %}
+		
+			<!-- ============== [活動] ============== -->
+			<!-- visual -->
+			{% for key, value in _events %}
+				<a href="{{value[0].link}}">
+					<div class="element_item transition filter__activity" data-category="transition">
+						<div class="works_block">
+							<div class="pic">
+								<img src={{value[0].photo_index}} alt="">
+								<!-- <img src="img/y-slash.png" alt=""> -->
+							</div>
+							<div class="works_des">
+								<h5>Taiwan / Taipei</h5>
+								<h6>{{loop.index}}  {{value[0].thistitle}}</h6>
+								<p>{{value[0].intro}}</p>
+								<div class="arrow_right"><img src="img/h-arrow.svg" alt=""></div>
+							</div>
 
+						</div>
+					</div>
+				</a>
+			{% endfor %}
 
 			
 			
@@ -151,46 +212,30 @@ $(document).ready(function(){
 
 
 
+
+			<!-- <div class="element_item transition filter__package " data-category="transition">
+				<div class="works_block">
+					<div class="pic">
+						<img src="img/works_a_01.jpg" alt="">
+					</div>
+					<div class="works_des">
+						<h5>Taiwan / Taipei</h5>
+						<h6>北一女校史室設計</h6>
+						<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
+						<div class="arrow_right"><img src="img/h-arrow.svg" alt=""></div>
+					</div>
+
+				</div>
+			</div>
+
+			
+
+			
 
 			<div class="element_item transition filter__package " data-category="transition">
 				<div class="works_block">
 					<div class="pic">
 						<img src="img/works_a_01.jpg" alt="">
-						<!-- <img src="img/y-slash.png" alt=""> -->
-					</div>
-					<div class="works_des">
-						<h5>Taiwan / Taipei</h5>
-						<h6>北一女校史室設計</h6>
-						<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
-						<div class="arrow_right"><img src="img/h-arrow.svg" alt=""></div>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="element_item transition filter__visual " data-category="transition">
-				<div class="works_block">
-					<div class="pic">
-						<img src="img/works_a_01.jpg" alt="">
-						<!-- <img src="img/y-slash.png" alt=""> -->
-					</div>
-					<div class="works_des">
-						<h5>Taiwan / Taipei</h5>
-						<h6>北一女校史室設計</h6>
-						<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
-						<div class="arrow_right"><img src="img/h-arrow.svg" alt=""></div>
-					</div>
-
-				</div>
-			</div>
-
-			
-
-			<div class="element_item transition filter__package " data-category="transition">
-				<div class="works_block">
-					<div class="pic">
-						<img src="img/works_a_01.jpg" alt="">
-						<!-- <img src="img/y-slash.png" alt=""> -->
 					</div>
 					<div class="works_des">
 						<h5>Taiwan / Taipei</h5>
@@ -206,7 +251,6 @@ $(document).ready(function(){
 				<div class="works_block">
 					<div class="pic">
 						<img src="img/works_a_01.jpg" alt="">
-						<!-- <img src="img/y-slash.png" alt=""> -->
 					</div>
 					<div class="works_des">
 						<h5>Taiwan / Taipei</h5>
@@ -223,7 +267,6 @@ $(document).ready(function(){
 				<div class="works_block">
 					<div class="pic">
 						<img src="img/works_a_01.jpg" alt="">
-						<!-- <img src="img/y-slash.png" alt=""> -->
 					</div>
 					<div class="works_des">
 						<h5>Taiwan / Taipei</h5>
@@ -233,23 +276,9 @@ $(document).ready(function(){
 					</div>
 
 				</div>
-			</div>
+			</div> -->
 
-			<div class="element_item transition filter__activity" data-category="transition">
-				<div class="works_block">
-					<div class="pic">
-						<img src="img/works_a_01.jpg" alt="">
-						<!-- <img src="img/y-slash.png" alt=""> -->
-					</div>
-					<div class="works_des">
-						<h5>Taiwan / Taipei</h5>
-						<h6>北一女校史室設計</h6>
-						<p>從室內設計到平面設計，從文物挑選到陳列布置，處處可見細膩巧思，少即是多的設計...</p>
-						<div class="arrow_right"><img src="img/h-arrow.svg" alt=""></div>
-					</div>
-
-				</div>
-			</div>
+			
 
 
 

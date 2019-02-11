@@ -1488,7 +1488,8 @@ a {
   .works_list_section .works_list_wrapper .element_item .works_block .works_des h6 {
     font-size: 25px;
     font-weight: 400;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    line-height: 1.2; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des p {
     font-size: 12px;
     color: #888787;
@@ -1533,7 +1534,8 @@ a {
   .works_list_section .works_list_wrapper .element_item .works_block .works_des h6 {
     font-size: 25px;
     font-weight: 400;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    line-height: 1.2; }
   .works_list_section .works_list_wrapper .element_item .works_block .works_des p {
     font-size: 12px;
     color: #888787;

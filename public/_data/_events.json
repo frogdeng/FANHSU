@@ -15,7 +15,9 @@
             "thistitle": "2018美濃白玉蘿蔔季",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_01.jpg",
+            "link": "portfolio_b_events.html?=events_01"
         }
     ],
 
@@ -34,7 +36,9 @@
             "thistitle": "麻豆文旦歡樂進北農",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_02.jpg",
+            "link": "portfolio_d_events.html?=events_02"
         }
     ],
 
@@ -53,7 +57,9 @@
             "thistitle": "七夕情人麻豆文旦榮耀禮盒上市記者會",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_03.jpg",
+            "link": "portfolio_b_events.html?=events_03"
         }
     ],
 
@@ -69,10 +75,12 @@
             "photo_8": "img/works/events/events_04/8.png",
             "photo_9": "img/works/events/events_04/9.png",
 
-            "thistitle": "美濃區稻米品質競賽暨<尋找阿嬤的味緒>新書發表會",
+            "thistitle": "北埔茶酒咖啡展",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_04.jpg",
+            "link": "portfolio_d_events.html?=events_04"
         }
     ],
 
@@ -88,12 +96,16 @@
             "photo_8": "img/works/events/events_05/8.png",
             "photo_9": "img/works/events/events_05/9.png",
 
-            "thistitle": "美濃新米上市記者會",
+            "thistitle": "打造田園新視野-產地直送101PRO農民市集",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_05.jpg",
+            "link": "portfolio_d_events.html?=events_05"
         }
     ],
+
+
 
      "events_06": [
         {
@@ -107,12 +119,15 @@
             "photo_8": "img/works/events/events_06/8.png",
             "photo_9": "img/works/events/events_06/9.png",
 
-            "thistitle": "屏東恆春半島洋蔥品牌行銷記者會",
+            "thistitle": "美濃區稻米品質競賽暨<尋找阿嬤的味緒>新書發表會",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_06.jpg",
+            "link": "portfolio_b_events.html?=events_06"
         }
     ],
+
 
      "events_07": [
         {
@@ -126,10 +141,12 @@
             "photo_8": "img/works/events/events_07/8.png",
             "photo_9": "img/works/events/events_07/9.png",
 
-            "thistitle": "農民運動30週年",
+            "thistitle": "Light up亮點茶莊",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_07.jpg",
+            "link": "portfolio_d_events.html?=events_07"
         }
     ],
 
@@ -145,12 +162,17 @@
             "photo_8": "img/works/events/events_08/8.png",
             "photo_9": "img/works/events/events_08/9.png",
 
-            "thistitle": "美濃好豆季",
+            "thistitle": "美濃區農會產銷履歷農產品推廣會",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_08.jpg",
+            "link": "portfolio_d_events.html?=events_08"
         }
     ],
+
+
+
 
      "events_09": [
         {
@@ -164,10 +186,12 @@
             "photo_8": "img/works/events/events_09/8.png",
             "photo_9": "img/works/events/events_09/9.png",
 
-            "thistitle": "美濃橙蜜香番茄行銷推廣記者會",
+            "thistitle": "美濃新米上市記者會",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_09.jpg",
+            "link": "portfolio_d_events.html?=events_09"
         }
     ],
 
@@ -183,10 +207,12 @@
             "photo_8": "img/works/events/events_10/8.png",
             "photo_9": "img/works/events/events_10/9.png",
 
-            "thistitle": "2017美濃白玉蘿蔔季",
+            "thistitle": "屏東恆春半島洋蔥品牌行銷記者會",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_10.jpg",
+            "link": "portfolio_b_events.html?=events_10"
         }
     ],
 
@@ -202,10 +228,12 @@
             "photo_8": "img/works/events/events_11/8.png",
             "photo_9": "img/works/events/events_11/9.png",
 
-            "thistitle": "2015美濃白玉蘿蔔季",
+            "thistitle": "農民運動30週年",
             "intro": "",
             "description": " <p> <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_11.jpg",
+            "link": "portfolio_b_events.html?=events_11"
         }
     ],
 
@@ -221,10 +249,96 @@
             "photo_8": "img/works/events/events_12/8.png",
             "photo_9": "img/works/events/events_12/9.png",
 
+            "thistitle": "美濃好豆季",
+            "intro": "",
+            "description": " <p> <\/p>\n ",
+            
+            "photo_index": "img/works_index/activity_12.jpg",
+            "link": "portfolio_c_events.html?=events_12"
+        }
+    ],
+
+     "events_13": [
+        {
+            "photo_1": "img/works/events/events_13/1.png",
+            "photo_2": "img/works/events/events_13/2.png",
+            "photo_3": "img/works/events/events_13/3.png",
+            "photo_4": "img/works/events/events_13/4.png",
+            "photo_5": "img/works/events/events_13/5.png",
+            "photo_6": "img/works/events/events_13/6.png",
+            "photo_7": "img/works/events/events_13/7.png",
+            "photo_8": "img/works/events/events_13/8.png",
+            "photo_9": "img/works/events/events_13/9.png",
+
+            "thistitle": "美濃橙蜜香番茄行銷推廣記者會",
+            "intro": "",
+            "description": " <p> <\/p>\n ",
+            
+            "photo_index": "img/works_index/activity_13.jpg",
+            "link": "portfolio_b_events.html?=events_13"
+        }
+    ],
+
+     "events_14": [
+        {
+            "photo_1": "img/works/events/events_14/1.png",
+            "photo_2": "img/works/events/events_14/2.png",
+            "photo_3": "img/works/events/events_14/3.png",
+            "photo_4": "img/works/events/events_14/4.png",
+            "photo_5": "img/works/events/events_14/5.png",
+            "photo_6": "img/works/events/events_14/6.png",
+            "photo_7": "img/works/events/events_14/7.png",
+            "photo_8": "img/works/events/events_14/8.png",
+            "photo_9": "img/works/events/events_14/9.png",
+
+            "thistitle": "2017美濃白玉蘿蔔季",
+            "intro": "",
+            "description": " <p> <\/p>\n ",
+            
+            "photo_index": "img/works_index/activity_14.jpg",
+            "link": "portfolio_b_events.html?=events_14"
+        }
+    ],
+
+     "events_15": [
+        {
+            "photo_1": "img/works/events/events_15/1.png",
+            "photo_2": "img/works/events/events_15/2.png",
+            "photo_3": "img/works/events/events_15/3.png",
+            "photo_4": "img/works/events/events_15/4.png",
+            "photo_5": "img/works/events/events_15/5.png",
+            "photo_6": "img/works/events/events_15/6.png",
+            "photo_7": "img/works/events/events_15/7.png",
+            "photo_8": "img/works/events/events_15/8.png",
+            "photo_9": "img/works/events/events_15/9.png",
+
+            "thistitle": "2015美濃白玉蘿蔔季",
+            "intro": "",
+            "description": " <p> <\/p>\n ",
+            
+            "photo_index": "img/works_index/activity_15.jpg",
+            "link": "portfolio_b_events.html?=events_15"
+        }
+    ],
+
+     "events_16": [
+        {
+            "photo_1": "img/works/events/events_16/1.png",
+            "photo_2": "img/works/events/events_16/2.png",
+            "photo_3": "img/works/events/events_16/3.png",
+            "photo_4": "img/works/events/events_16/4.png",
+            "photo_5": "img/works/events/events_16/5.png",
+            "photo_6": "img/works/events/events_16/6.png",
+            "photo_7": "img/works/events/events_16/7.png",
+            "photo_8": "img/works/events/events_16/8.png",
+            "photo_9": "img/works/events/events_16/9.png",
+
             "thistitle": "2014美濃白玉蘿蔔季",
             "intro": "2014年白玉蘿蔔季活動主題「吃飯配蘿蔔」，設計師讓白玉蘿蔔跳脫可愛童趣，再增添大人成熟感，拔蘿蔔體驗不只是農村活動，也能享受視覺設計趣味。",
             "description": " <p>一年一度的美濃白玉蘿蔔季，已跳脫小型地域性農村活動，提升為全國知名盛大商業活動。蘿蔔產季不但增加農夫直接收益，更帶動餐飲服務業周邊收益，活絡美濃農村經濟。2014年白玉蘿蔔季活動主題「吃飯配蘿蔔」，推廣美濃農民日常生活與日常飲食，設計師以「野餐的趣味」加上「成熟的可愛」操作一系列視覺傳達設計作品。 <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+            
+            "photo_index": "img/works_index/activity_16.jpg",
+            "link": "portfolio_c_events.html?=events_16"
         }
     ]
 
