@@ -7,10 +7,15 @@
             "photo_3": "img/works/books/books_01/3.png",
             "photo_4": "img/works/books/books_01/4.png",
 
+
             "thistitle": "台灣農會史",
             "intro": "台灣農會史以1945年分期，分成上下兩冊。上冊著眼日治時期溯源，下冊綜論戰後的演變。瞭解百年農會歷史以了解台灣農業演變，以及農政末端組織與不同統治政權的互動關係。",
             "description": " <p>台灣農會史記錄百年農會發展史，具有重要的歷史意義及價值，此書設計大量運用極具代表農會的穀倉建築為元素，選用紙張均符合農會質樸風格。精裝書盒模仿稻種倉庫意象，珍貴稻種由房間上方無天花板的大開口倒入存放，外牆面有一突起ㄩ字流口用擋板隔住稻種。農民取用時，只需將擋板由上抽起，稻種便緩緩流出。打開此書，如同打開知識倉庫，流出豐富的精神食糧。 <\/p>\n   ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_01.jpg",
+            "link": "portfolio_c_books.html?=books_01"
+
+    
         }
     ],
 
@@ -24,7 +29,9 @@
             "thistitle": "台灣農會大事年表",
             "intro": "以年代為經，以史實為緯，全書簡要而詳實，重要事件或佐以精彩圖片或另文詳述，是快速瞭解台灣農會源流、查找今日農會現狀之最佳入手工具書。",
             "description": " <p>嚴謹治學的台灣農會史專家胡忠一博士大作─《台灣農會大事年表》，具有史料價值的工具書，使用方眼紙線條面為主要設計概念，隱喻本書具有測量、記錄的特性；而簡單俐落、充滿設計感的線性轉折使之為全書設計語彙，呼應書籍主題。封面採用珠光炫光紙印製，蝴蝶頁則採用精緻日本畫布紙加上燙鈦金處理，展現歷史年華之美。 <\/p>\n ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_02.jpg",
+             "link": "portfolio_c_books.html?=books_02"
         }
     ],
 
@@ -38,7 +45,9 @@
             "thistitle": "台灣漁會大事年表",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_03.jpg",
+             "link": "portfolio_c_books.html?=books_03"
         }
     ],
 
@@ -52,7 +61,9 @@
             "thistitle": "與時俱進",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_04.jpg",
+             "link": "portfolio_c_books.html?=books_04"
         }
     ],
 
@@ -64,7 +75,9 @@
             "thistitle": "典藏北一女",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_05.jpg",
+             "link": "portfolio_e_books.html?=books_05"
         }
     ],
 
@@ -78,7 +91,9 @@
             "thistitle": "北一女百年影像",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_06.jpg",
+             "link": "portfolio_c_books.html?=books_06"
         }
     ],
 
@@ -92,7 +107,9 @@
             "thistitle": "影像中國",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_07.jpg",
+             "link": "portfolio_c_books.html?=books_07"
         }
     ],
 
@@ -106,7 +123,9 @@
             "thistitle": "冷暴力",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_08.jpg",
+             "link": "portfolio_c_books.html?=books_08"
         }
     ], 
     
@@ -120,7 +139,9 @@
             "thistitle": "無限小",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_09.jpg",
+             "link": "portfolio_c_books.html?=books_09"
         }
     ],
 
@@ -134,7 +155,9 @@
             "thistitle": "20歲小狼•50歲大獅：父子世代的Men’s Talk",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_10.jpg",
+             "link": "portfolio_c_books.html?=books_10"
         }
     ],
 
@@ -148,7 +171,9 @@
             "thistitle": "同行致遠",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_11.jpg",
+             "link": "portfolio_c_books.html?=books_11"
         }
     ],
     "books_12": [
@@ -161,7 +186,9 @@
             "thistitle": "狼的智慧",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_12.jpg",
+             "link": "portfolio_c_books.html?=books_12"
         }
     ],
     "books_13": [
@@ -174,7 +201,9 @@
             "thistitle": "做對3件事，不怕醫療糾紛",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_13.jpg",
+             "link": "portfolio_c_books.html?=books_13"
         }
     ],
     "books_14": [
@@ -187,7 +216,9 @@
             "thistitle": "董事長說故事",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_14.jpg",
+             "link": "portfolio_c_books.html?=books_14"
         }
     ],
     "books_15": [
@@ -200,7 +231,9 @@
             "thistitle": "正自有山河之異",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_15.jpg",
+             "link": "portfolio_c_books.html?=books_15"
         }
     ],
     "books_16": [
@@ -213,7 +246,9 @@
             "thistitle": "哲學課的逆襲",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_16.jpg",
+             "link": "portfolio_c_books.html?=books_16"
         }
     ],
     "books_17": [
@@ -226,7 +261,9 @@
             "thistitle": "MIT面試官教你進美國名校",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_17.jpg",
+             "link": "portfolio_c_books.html?=books_17"
         }
     ],
     "books_18": [
@@ -239,7 +276,9 @@
             "thistitle": "性格的優勢",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_18.jpg",
+             "link": "portfolio_c_books.html?=books_18"
         }
     ],
     "books_19": [
@@ -252,7 +291,9 @@
             "thistitle": "媽媽的小吃店",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_19.jpg",
+             "link": "portfolio_c_books.html?=books_19"
         }
     ],
     "books_20": [
@@ -265,7 +306,9 @@
             "thistitle": "刺蝟的優雅",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_20.jpg",
+             "link": "portfolio_c_books.html?=books_20"
         }
     ],
     "books_21": [
@@ -278,7 +321,9 @@
             "thistitle": "耕讀",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_21.jpg",
+             "link": "portfolio_c_books.html?=books_21"
         }
     ],
     "books_22": [
@@ -291,7 +336,9 @@
             "thistitle": "陰影效應",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_22.jpg",
+             "link": "portfolio_c_books.html?=books_22"
         }
     ],
     "books_23": [
@@ -304,7 +351,9 @@
             "thistitle": "智慧之日",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_23.jpg",
+             "link": "portfolio_c_books.html?=books_23"
         }
     ],
     "books_24": [
@@ -317,7 +366,9 @@
             "thistitle": "黑色之書",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_24.jpg",
+             "link": "portfolio_c_books.html?=books_24"
         }
     ],
     "books_25": [
@@ -330,7 +381,9 @@
             "thistitle": "穩步.慢行",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_25.jpg",
+             "link": "portfolio_c_books.html?=books_25"
         }
     ],
     "books_26": [
@@ -343,7 +396,9 @@
             "thistitle": "讓人生的終點歸零",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_26.jpg",
+             "link": "portfolio_c_books.html?=books_26"
         }
     ],
     "books_27": [
@@ -356,7 +411,9 @@
             "thistitle": "圖解古埃及文明",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_27.jpg",
+             "link": "portfolio_c_books.html?=books_27"
         }
     ],
     "books_28": [
@@ -366,7 +423,9 @@
             "thistitle": "TAIPEI EPIPHANIES",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_28.jpg",
+             "link": "portfolio_e_books.html?=books_28"
         }
     ],
     "books_29": [
@@ -379,7 +438,9 @@
             "thistitle": "法國展覽作品",
             "intro": "",
             "description": " <p> <\/p>\n  ",
-            "test": " <p>Lorem ipsum dolor sit amet <\/p>\n"
+
+            "photo_index": "img/works_index/books_29.jpg",
+             "link": "portfolio_c_books.html?=books_29"
         }
     ]
 
