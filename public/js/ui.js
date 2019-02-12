@@ -23,6 +23,9 @@ $(document).ready(function(){
 		return $.scrollTo("#partners", 300), !1 
 	})
 	$("#go_03").click(function() { 
+		return $.scrollTo("#awards", 300), !1 
+	})
+	$("#go_04").click(function() { 
 		return $.scrollTo("#members", 300), !1 
 	})
 	

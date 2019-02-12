@@ -2451,6 +2451,18 @@ a {
     margin-top: 5px;
     font-weight: 200;
     color: #888787; }
+  .about .members .partners .award_years {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 20px; }
+  .about .members .partners .award_years .year {
+    margin-right: 15px; }
   .about .members .chief_members {
     display: -ms-flexbox;
     display: flex;
@@ -2608,6 +2620,10 @@ a {
 
 .p-2 {
   background: linear-gradient(to bottom, #bcbcbc, #a9a9a9 24%, #e1dfdf 79%, #9b9b9b); }
+
+.preblock {
+  height: 50px;
+  clear: both; }
 
 body {
   background: #000;
@@ -2770,7 +2786,13 @@ a {
     -ms-flex-pack: end;
     justify-content: flex-end;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
+  .header_body .this_wrapper .slogen {
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 90px; }
   .header_body .this_wrapper .logo {
     width: 80%;
     height: 238px;
@@ -2810,7 +2832,7 @@ a {
   .header_body .this_wrapper .slogen {
     width: 330px;
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 100px; }
   .header_body .this_wrapper .logo {
     width: 400px;
