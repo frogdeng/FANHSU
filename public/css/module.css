@@ -330,7 +330,7 @@ a {
     -ms-flex-align: center;
     align-items: center;
     margin-top: 237px;
-    margin-bottom: 400px; }
+    margin-bottom: 200px; }
   .director_info:after {
     content: " ";
     display: block;
@@ -425,7 +425,7 @@ a {
     -ms-flex-align: start;
     align-items: flex-start;
     margin-top: 237px;
-    margin-bottom: 400px; }
+    margin-bottom: 200px; }
   .director_info:after {
     content: " ";
     display: block;
@@ -2656,7 +2656,7 @@ a {
   background-size: cover; }
 
 .header_wrapper {
-  background: url("../img/mg-5543-2.jpg");
+  background: url("../img/mg-5543-2.jpg") top;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

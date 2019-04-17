@@ -56,9 +56,89 @@
 
             "thistitle": "新埔鎮農會新農民市場",
             "intro": "設計師突破舊有思維，以現代感、新穎、溫馨為三要素，重新規劃50坪空間動線與配置，營造藝廊氣氛的小農專區，濃濃手作氣氛的賣場，現代感戶外雨遮，成功讓農民市場蛻變為時髦賣場。",
-            "description": " <p>新埔鎮新農民市場賣場採黃光照明，增加溫馨感、提升購買慾。貨架的商品分類標示牌僅用粗木板手寫粉筆字，小型商品放在當地傳統的手編蒸蘿蔔糕竹藍內，零星分布的手寫促銷語言小黑板，同時營造著濃濃手作氣氛。小農藝廊或掛或放各個小農照片、明信片，活動圓桌放置小農自製加工品，四十年歷史的柑橘木條箱放著當地季節特產，藝廊不但是理念展演場，也可以隨著不同需求，自由搬動物件、活用空間。 <\/p>\n  ",
+            "description": " <p>新埔鎮新農民市場賣場採黃光照明，增加溫馨感、提升購買慾。貨架的商品分類標示牌僅用粗木板手寫粉筆字，小型商品放在當地傳統的手編蒸蘿蔔糕竹籃內，零星分布的手寫促銷語言小黑板，同時營造著濃濃手作氣氛。小農藝廊或掛或放各個小農照片、明信片，活動圓桌放置小農自製加工品，四十年歷史的柑橘木條箱放著當地季節特產，藝廊不但是理念展演場，也可以隨著不同需求，自由搬動物件、活用空間。 <\/p>\n  ",
             
             "photo_index": "img/works_index/interiordesign_03.jpg",
+            "link": "portfolio_b_interiordesign.html?=interiordesign_03"
+        }
+    ],
+
+     "interiordesign_04": [
+        {
+            "photo_1": "img/works/interiordesign/interiordesign_04/1.png",
+            "photo_2": "img/works/interiordesign/interiordesign_04/2.png",
+            "photo_3": "img/works/interiordesign/interiordesign_04/3.png",
+            "photo_4": "img/works/interiordesign/interiordesign_04/4.png",
+         
+
+            "thistitle": "池上鄉農會稻浪館",
+            "intro": "",
+            "description": " <p> <\/p>\n  ",
+            
+            "photo_index": "img/works_index/interiordesign_04.jpg",
+            "link": "portfolio_b_interiordesign.html?=interiordesign_03"
+        }
+    ],
+
+     "interiordesign_05": [
+        {
+            "photo_1": "img/works/interiordesign/interiordesign_05/1.png",
+            "photo_2": "img/works/interiordesign/interiordesign_05/2.png",
+            "photo_3": "img/works/interiordesign/interiordesign_05/3.png",
+            "photo_4": "img/works/interiordesign/interiordesign_05/4.png",
+            "photo_5": "img/works/interiordesign/interiordesign_05/5.png",
+            "photo_6": "img/works/interiordesign/interiordesign_05/6.png",
+            "photo_7": "img/works/interiordesign/interiordesign_05/7.png",
+            "photo_8": "img/works/interiordesign/interiordesign_05/8.png",
+            "photo_9": "img/works/interiordesign/interiordesign_05/9.png",
+
+            "thistitle": "美濃農會綠色農業資材中心",
+            "intro": "",
+            "description": " <p> <\/p>\n  ",
+            
+            "photo_index": "img/works_index/interiordesign_05.jpg",
+            "link": "portfolio_b_interiordesign.html?=interiordesign_03"
+        }
+    ],
+
+     "interiordesign_06": [
+        {
+            "photo_1": "img/works/interiordesign/interiordesign_06/1.png",
+            "photo_2": "img/works/interiordesign/interiordesign_06/2.png",
+            "photo_3": "img/works/interiordesign/interiordesign_06/3.png",
+            "photo_4": "img/works/interiordesign/interiordesign_06/4.png",
+            "photo_5": "img/works/interiordesign/interiordesign_06/5.png",
+            "photo_6": "img/works/interiordesign/interiordesign_06/6.png",
+            "photo_7": "img/works/interiordesign/interiordesign_06/7.png",
+            "photo_8": "img/works/interiordesign/interiordesign_06/8.png",
+            "photo_9": "img/works/interiordesign/interiordesign_06/9.png",
+
+            "thistitle": "新埔鎮農會咖啡廳",
+            "intro": "",
+            "description": " <p> <\/p>\n  ",
+            
+            "photo_index": "img/works_index/interiordesign_06.jpg",
+            "link": "portfolio_b_interiordesign.html?=interiordesign_03"
+        }
+    ],
+
+     "interiordesign_07": [
+        {
+            "photo_1": "img/works/interiordesign/interiordesign_07/1.png",
+            "photo_2": "img/works/interiordesign/interiordesign_07/2.png",
+            "photo_3": "img/works/interiordesign/interiordesign_07/3.png",
+            "photo_4": "img/works/interiordesign/interiordesign_07/4.png",
+            "photo_5": "img/works/interiordesign/interiordesign_07/5.png",
+            "photo_6": "img/works/interiordesign/interiordesign_07/6.png",
+            "photo_7": "img/works/interiordesign/interiordesign_07/7.png",
+            "photo_8": "img/works/interiordesign/interiordesign_07/8.png",
+            "photo_9": "img/works/interiordesign/interiordesign_07/9.png",
+
+            "thistitle": "池上鄉農會小白屋咖啡",
+            "intro": "",
+            "description": " <p> <\/p>\n  ",
+            
+            "photo_index": "img/works_index/interiordesign_07.jpg",
             "link": "portfolio_b_interiordesign.html?=interiordesign_03"
         }
     ]
