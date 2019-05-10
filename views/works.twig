@@ -6,51 +6,16 @@
 
 {% include '_template/_partial/top_menu_wh-bg.twig' %}
 
-
-<!-- ====== -->
-<script>
-$(document).ready(function(){
-	var $grid = $('.grid').isotope({
-	  itemSelector: '.element_item',
-	  layoutMode: 'fitRows'
-	});
-
-
-
-	// bind filter button click
-	$('.filters-button-group').on( 'click', 'div', function() {
-	  var filterValue = $( this ).attr('data-filter');
-	  // use filterFn if matches value
-	  // filterValue = filterFns[ filterValue ] || filterValue;
-	  $grid.isotope({ filter: filterValue });
-	});
-
-
-
-	// change is-checked class on buttons
-	$('.button-group').each( function( i, buttonGroup ) {
-	  var $buttonGroup = $( buttonGroup );
-	  $buttonGroup.on( 'click', 'div', function() {
-	    $buttonGroup.find('.is-checked').removeClass('is-checked');
-	    $( this ).addClass('is-checked');
-	  });
-	});
-
-});
-</script>
-
-
-
 <div class="works_wrapper">
 	<div class="works_fun_section">
 		<div class="woks_filter">
 			<div class="works_menu filter_button button-group filters-button-group">
-				<div class="filter_button_item is-checked " data-filter="*">All</div>
-				<div class="filter_button_item" data-filter=".filter__books">書籍</div>
-				<div class="filter_button_item" data-filter=".filter__package">包裝</div>
-				<div class="filter_button_item" data-filter=".filter__visual">視覺</div>
-				<div class="filter_button_item" data-filter=".filter__space">空間</div>
-				<div class="filter_button_item" data-filter=".filter__activity">活動</div>
+				<div class="filter_button_item " data-filter="*">All</div>
+				<div class="filter_button_item filter__books" data-filter=".filter__books">書籍</div>
+				<div class="filter_button_item filter__package" data-filter=".filter__package">包裝</div>
+				<div class="filter_button_item filter__visual" data-filter=".filter__visual">視覺</div>
+				<div class="filter_button_item filter__space" data-filter=".filter__space">空間</div>
+				<div class="filter_button_item filter__activity" data-filter=".filter__activity">活動</div>
 			</div>
 
 			<!-- <div class="works_search">
@@ -62,12 +27,8 @@ $(document).ready(function(){
 	</div>
 
 
-
-
-
-
 	<div class="works_list_section">
-		
+
 		<div class="works_list_wrapper grid">
 
 			<!-- ============== [書籍] ============== -->
@@ -92,7 +53,7 @@ $(document).ready(function(){
 				</a>
 			{% endfor %}
 
-			
+
 			<!-- ============== [包裝] ============== -->
 			<!-- package -->
 			{% for key, value in _package %}
@@ -115,7 +76,7 @@ $(document).ready(function(){
 				</a>
 			{% endfor %}
 
-			
+
 			<!-- ============== [視覺] ============== -->
 			<!-- visual -->
 			{% for key, value in _visual %}
@@ -126,7 +87,7 @@ $(document).ready(function(){
 								<img src={{value[0].photo_index}} alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>{{value[0].thistitle}}</h6>
 								<p>{{value[0].intro}}</p>
@@ -137,8 +98,8 @@ $(document).ready(function(){
 					</div>
 				</a>
 			{% endfor %}
-		
-	
+
+
 			<!-- ============== [空間] ============== -->
 			<!-- visual -->
 			{% for key, value in _interiordesign %}
@@ -163,7 +124,7 @@ $(document).ready(function(){
 
 
 
-		
+
 			<!-- ============== [活動] ============== -->
 			<!-- visual -->
 			{% for key, value in _events %}
@@ -186,8 +147,8 @@ $(document).ready(function(){
 				</a>
 			{% endfor %}
 
-			
-			
+
+
 
 
 
@@ -208,9 +169,9 @@ $(document).ready(function(){
 				</div>
 			</div>
 
-			
 
-			
+
+
 
 			<div class="element_item transition filter__package " data-category="transition">
 				<div class="works_block">
@@ -226,7 +187,7 @@ $(document).ready(function(){
 
 				</div>
 			</div>
-			
+
 			<div class="element_item transition filter__visual " data-category="transition">
 				<div class="works_block">
 					<div class="pic">
@@ -258,7 +219,7 @@ $(document).ready(function(){
 				</div>
 			</div> -->
 
-			
+
 
 
 

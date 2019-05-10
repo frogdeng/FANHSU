@@ -4,12 +4,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+
 <meta name="keywords" content="">
 <meta name="description" content="">
 <title>FANHSU</title>
 
-<link rel="shortcut icon" href="img/favicon.ico" />
 
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
@@ -18,11 +18,12 @@
 <link rel="stylesheet" href="css/isotope-docs.css">
 <link rel="stylesheet" href="css/module.css?v=20181129">
 
-<script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
 
 <script src="js/ui.js"></script>
+<script src="js/for_isotope.js"></script>
 
 
 
@@ -79,51 +80,16 @@
 	</div>
 </div>
 </div>
-
-<!-- ====== -->
-<script>
-$(document).ready(function(){
-	var $grid = $('.grid').isotope({
-	  itemSelector: '.element_item',
-	  layoutMode: 'fitRows'
-	});
-
-
-
-	// bind filter button click
-	$('.filters-button-group').on( 'click', 'div', function() {
-	  var filterValue = $( this ).attr('data-filter');
-	  // use filterFn if matches value
-	  // filterValue = filterFns[ filterValue ] || filterValue;
-	  $grid.isotope({ filter: filterValue });
-	});
-
-
-
-	// change is-checked class on buttons
-	$('.button-group').each( function( i, buttonGroup ) {
-	  var $buttonGroup = $( buttonGroup );
-	  $buttonGroup.on( 'click', 'div', function() {
-	    $buttonGroup.find('.is-checked').removeClass('is-checked');
-	    $( this ).addClass('is-checked');
-	  });
-	});
-
-});
-</script>
-
-
-
 <div class="works_wrapper">
 	<div class="works_fun_section">
 		<div class="woks_filter">
 			<div class="works_menu filter_button button-group filters-button-group">
-				<div class="filter_button_item is-checked " data-filter="*">All</div>
-				<div class="filter_button_item" data-filter=".filter__books">書籍</div>
-				<div class="filter_button_item" data-filter=".filter__package">包裝</div>
-				<div class="filter_button_item" data-filter=".filter__visual">視覺</div>
-				<div class="filter_button_item" data-filter=".filter__space">空間</div>
-				<div class="filter_button_item" data-filter=".filter__activity">活動</div>
+				<div class="filter_button_item " data-filter="*">All</div>
+				<div class="filter_button_item filter__books" data-filter=".filter__books">書籍</div>
+				<div class="filter_button_item filter__package" data-filter=".filter__package">包裝</div>
+				<div class="filter_button_item filter__visual" data-filter=".filter__visual">視覺</div>
+				<div class="filter_button_item filter__space" data-filter=".filter__space">空間</div>
+				<div class="filter_button_item filter__activity" data-filter=".filter__activity">活動</div>
 			</div>
 
 			<!-- <div class="works_search">
@@ -135,12 +101,8 @@ $(document).ready(function(){
 	</div>
 
 
-
-
-
-
 	<div class="works_list_section">
-		
+
 		<div class="works_list_wrapper grid">
 
 			<!-- ============== [書籍] ============== -->
@@ -639,7 +601,7 @@ $(document).ready(function(){
 					</div>
 				</a>
 			
-			
+
 			<!-- ============== [包裝] ============== -->
 			<!-- package -->
 							<a href="portfolio_d_package.html?=package_01">
@@ -1187,7 +1149,7 @@ $(document).ready(function(){
 					</div>
 				</a>
 			
-			
+
 			<!-- ============== [視覺] ============== -->
 			<!-- visual -->
 							<a href="portfolio_c_visual.html?=visual_01">
@@ -1197,7 +1159,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_01.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>沃田旅店國宴菜單卡</h6>
 								<p>2017年總統府舉辦中外媒體新春聯誼餐會，沃田旅店身為食材溯源餐廳，產銷履歷食材豐富多樣，因此獲得總統府青睞，希望藉此餐會讓中外媒體朋友了解台灣美味。</p>
@@ -1214,7 +1176,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_02.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>美濃高雄147米系列設計</h6>
 								<p>美濃高雄147米包裝設計運用滿版鮮橘色帶出豐收喜悅意象，印襯美濃平原環山群繞的思鄉天際線，搖曳的金黃稻穗凸顯粒粒白米彌足珍貴，飽滿的稻穗桂冠是高雄147米尊貴的身份標章。</p>
@@ -1231,7 +1193,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_03.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>沃田旅店CIS設計</h6>
 								<p></p>
@@ -1248,7 +1210,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_04.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>2016沃田旅店農民節海報</h6>
 								<p>沃田旅店2016年度首發專案——「農民節」宣傳海報，希望透過農民節專案介紹沃田旅店，植根於台灣342家農會肥沃土壤的旅店，依循二十四節氣、嚴選農漁會季節材，水稻為農業之母，來沃田好好吃飯。</p>
@@ -1265,7 +1227,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_05.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>2016沃田旅店漁民節海報</h6>
 								<p>沃田旅店2016年度特色專案「漁民節」宣傳海報：「請把盤子裡的海鮮吃光光」，支持辛勞的漁民，更支持海洋永續，齊聚台灣東西南北的四季漁獲來辦桌。</p>
@@ -1282,7 +1244,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_06.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>泛亞框藝產品型錄</h6>
 								<p>型錄以簡約現代的幾何線條為設計語彙，俐落、洗練地呈現泛亞鋁框藝術性及縝密的產品細節，以四色加一色特別金屬色交替搭配產品顏色，彰顯型錄的精細及獨特性。</p>
@@ -1299,7 +1261,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_07.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>2016高雄美濃區農會生日賀卡</h6>
 								<p></p>
@@ -1316,7 +1278,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_08.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>2016農訓協會生日賀卡</h6>
 								<p>農訓協會由全國342家農漁會共同支持成立，是提升農漁會員工素質與能力的專業訓練機構。生日卡除了傳達祝賀之意，也要表達農訓協會對於農漁會產品的愛護。</p>
@@ -1333,7 +1295,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_09.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>2015美濃白玉蘿蔔季桌曆</h6>
 								<p></p>
@@ -1350,7 +1312,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_10.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>2014美濃白玉蘿蔔季</h6>
 								<p></p>
@@ -1367,7 +1329,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_11.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>農訓協會文創商品</h6>
 								<p></p>
@@ -1384,7 +1346,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_12.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>農訓協會文創商品-帆布袋</h6>
 								<p></p>
@@ -1401,7 +1363,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_13.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>牽手．推手</h6>
 								<p></p>
@@ -1418,7 +1380,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_14.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>台北記憶</h6>
 								<p></p>
@@ -1435,7 +1397,7 @@ $(document).ready(function(){
 								<img src=img/works_index/visual_15.jpg alt="">
 								<!-- <img src="img/y-slash.png" alt=""> -->
 							</div>
-							<div class="works_des">
+							 <div class="works_des">
 								<h5>Taiwan / Taipei</h5>
 								<h6>凱達格蘭學校中英文版簡介及中華漢光書法學會</h6>
 								<p></p>
@@ -1445,8 +1407,8 @@ $(document).ready(function(){
 						</div>
 					</div>
 				</a>
-					
-	
+			
+
 			<!-- ============== [空間] ============== -->
 			<!-- visual -->
 							<a href="portfolio_b_interiordesign.html?=interiordesign_01">
@@ -1571,7 +1533,7 @@ $(document).ready(function(){
 			
 
 
-		
+
 			<!-- ============== [活動] ============== -->
 			<!-- visual -->
 							<a href="portfolio_b_events.html?=events_01">
@@ -1847,8 +1809,8 @@ $(document).ready(function(){
 					</div>
 				</a>
 			
-			
-			
+
+
 
 
 
@@ -1869,9 +1831,9 @@ $(document).ready(function(){
 				</div>
 			</div>
 
-			
 
-			
+
+
 
 			<div class="element_item transition filter__package " data-category="transition">
 				<div class="works_block">
@@ -1887,7 +1849,7 @@ $(document).ready(function(){
 
 				</div>
 			</div>
-			
+
 			<div class="element_item transition filter__visual " data-category="transition">
 				<div class="works_block">
 					<div class="pic">
@@ -1919,7 +1881,7 @@ $(document).ready(function(){
 				</div>
 			</div> -->
 
-			
+
 
 
 
@@ -1945,19 +1907,19 @@ $(document).ready(function(){
 <div class="footer_wrapper">
 	<footer>
 		<div class="copyright">
-			
+
 			<img src="img/footer-logo.svg" alt="">
 			<p><span>TEL</span> <span>02-27550560 / 02-27550561 </span></p>
 			<p><span>FAX</span> <span>02-27550562</span>  </p>
-			<p><span>MAIL</span> <span>fanhsu300@gmail.com </p>	
+			<p><span>MAIL</span> <span>fanhsu300@gmail.com </p>
 			<br>
 
 			<p><a href="http://www.fanhsu.com/">http://www.fanhsu.com/</a></p>
 			<p>台北市大安區仁愛路三段28號9樓之二</p>
-			
+
 
 		</div>
-		
+
 	</footer>
 </div>
 

@@ -16,7 +16,7 @@ $(document).ready(function(){
  		 if (strUrl.indexOf("?") != -1) {
 
 		    var getSearch = strUrl.split("=");
-		    var thispage = getSearch[1]	
+		    var thispage = getSearch[1]
 		    // console.log(thispage)
 		    // link = 'data.' + thispage + '[0].photo_1'
 		   	// console.log(typeof(link))
@@ -39,24 +39,24 @@ $(document).ready(function(){
 
 		var photo_1 = document.createElement("IMG");
 	     photo_1.setAttribute("src", imgLink_1);
-	     $('.img-box-1').html(photo_1);	
+	     $('.img-box-1').html(photo_1);
 
 
 		var photo_2 = document.createElement("IMG");
 	     photo_2.setAttribute("src", imgLink_2);
-	     $('.img-box-2').html(photo_2);	
+	     $('.img-box-2').html(photo_2);
 
 		var photo_3 = document.createElement("IMG");
 	     photo_3.setAttribute("src", imgLink_3);
-	     $('.img-box-3').html(photo_3);	
+	     $('.img-box-3').html(photo_3);
 
 		var photo_4 = document.createElement("IMG");
 	     photo_4.setAttribute("src", imgLink_4);
-	     $('.img-box-4').html(photo_4);	
+	     $('.img-box-4').html(photo_4);
 
-	    $('.layout_a_description > h4').html(_title);	
-	    $('.layout_a_description > h6').html(_intro);	
-	    $('.des-content').html(_description);	
+	    $('.layout_a_description > h4').html(_title);
+	    $('.layout_a_description > h6').html(_intro);
+	    $('.des-content').html(_description);
   });
 
 
@@ -80,7 +80,7 @@ $(document).ready(function(){
 
 		</div>
 		</div>
-	
+
 	<div class="layout_a_description_bg">
 		<div class="layout_a_description">
 
@@ -88,7 +88,7 @@ $(document).ready(function(){
 			<div class="d-line"></div>
 			<h6></h6>
 			<div class="des-content"></div>
-			<a href="works.html" class="goback">BACK</a>
+			<a href="works.html?=.filter__package" class="goback">BACK</a>
 		</div>
 	</div>
 </div>
@@ -97,7 +97,7 @@ $(document).ready(function(){
 
 
 
-	
+
 
 
 

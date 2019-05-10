@@ -4,12 +4,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+
 <meta name="keywords" content="">
 <meta name="description" content="">
 <title>FANHSU</title>
 
-<link rel="shortcut icon" href="img/favicon.ico" />
 
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
@@ -18,11 +18,12 @@
 <link rel="stylesheet" href="css/isotope-docs.css">
 <link rel="stylesheet" href="css/module.css?v=20181129">
 
-<script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
 
 <script src="js/ui.js"></script>
+<script src="js/for_isotope.js"></script>
 
 
 
@@ -89,7 +90,7 @@ $(document).ready(function(){
  		 if (strUrl.indexOf("?") != -1) {
 
 		    var getSearch = strUrl.split("=");
-		    var thispage = getSearch[1]	
+		    var thispage = getSearch[1]
 		    // console.log(thispage)
 		    // link = 'data.' + thispage + '[0].photo_1'
 		   	// console.log(typeof(link))
@@ -112,24 +113,24 @@ $(document).ready(function(){
 
 		var photo_1 = document.createElement("IMG");
 	     photo_1.setAttribute("src", imgLink_1);
-	     $('.img-box-1').html(photo_1);	
+	     $('.img-box-1').html(photo_1);
 
 
 		var photo_2 = document.createElement("IMG");
 	     photo_2.setAttribute("src", imgLink_2);
-	     $('.img-box-2').html(photo_2);	
+	     $('.img-box-2').html(photo_2);
 
 		var photo_3 = document.createElement("IMG");
 	     photo_3.setAttribute("src", imgLink_3);
-	     $('.img-box-3').html(photo_3);	
+	     $('.img-box-3').html(photo_3);
 
 		var photo_4 = document.createElement("IMG");
 	     photo_4.setAttribute("src", imgLink_4);
-	     $('.img-box-4').html(photo_4);	
+	     $('.img-box-4').html(photo_4);
 
-	    $('.layout_a_description > h4').html(_title);	
-	    $('.layout_a_description > h6').html(_intro);	
-	    $('.des-content').html(_description);	
+	    $('.layout_a_description > h4').html(_title);
+	    $('.layout_a_description > h6').html(_intro);
+	    $('.des-content').html(_description);
   });
 
 
@@ -153,7 +154,7 @@ $(document).ready(function(){
 
 		</div>
 		</div>
-	
+
 	<div class="layout_a_description_bg">
 		<div class="layout_a_description">
 
@@ -161,7 +162,7 @@ $(document).ready(function(){
 			<div class="d-line"></div>
 			<h6></h6>
 			<div class="des-content"></div>
-			<a href="works.html" class="goback">BACK</a>
+			<a href="works.html?=.filter__package" class="goback">BACK</a>
 		</div>
 	</div>
 </div>
@@ -170,7 +171,7 @@ $(document).ready(function(){
 
 
 
-	
+
 
 
 
@@ -196,19 +197,19 @@ $(document).ready(function(){
 <div class="footer_wrapper">
 	<footer>
 		<div class="copyright">
-			
+
 			<img src="img/footer-logo.svg" alt="">
 			<p><span>TEL</span> <span>02-27550560 / 02-27550561 </span></p>
 			<p><span>FAX</span> <span>02-27550562</span>  </p>
-			<p><span>MAIL</span> <span>fanhsu300@gmail.com </p>	
+			<p><span>MAIL</span> <span>fanhsu300@gmail.com </p>
 			<br>
 
 			<p><a href="http://www.fanhsu.com/">http://www.fanhsu.com/</a></p>
 			<p>台北市大安區仁愛路三段28號9樓之二</p>
-			
+
 
 		</div>
-		
+
 	</footer>
 </div>
 

@@ -16,19 +16,20 @@ $(document).ready(function(){
 
 
 
-	$("#go_01").click(function() { 
-		return $.scrollTo("#about_description", 300), !1 
+	$("#go_01").click(function() {
+		return $.scrollTo("#about_description", 300), !1
 	})
-	$("#go_02").click(function() { 
-		return $.scrollTo("#partners", 300), !1 
+	$("#go_02").click(function() {
+		return $.scrollTo("#partners", 300), !1
 	})
-	$("#go_03").click(function() { 
-		return $.scrollTo("#awards", 300), !1 
+	$("#go_03").click(function() {
+		return $.scrollTo("#awards", 300), !1
 	})
-	$("#go_04").click(function() { 
-		return $.scrollTo("#members", 300), !1 
+	$("#go_04").click(function() {
+		return $.scrollTo("#members", 300), !1
 	})
-	
+
+
 });
 
 
