@@ -6,7 +6,6 @@ $(document).ready(function(){
 	var filterValue;
 
 
-
 	// init Isotope
 	var $grid = $('.grid').isotope({
 	  itemSelector: '.element_item',
@@ -15,10 +14,29 @@ $(document).ready(function(){
 	    var $this = $(this);
 	    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
 	    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
-
 	    return searchResult && buttonResult;
 	  }
 	});
+
+
+
+// (function(){
+//   	var strUrl = location.search;
+// 	if (strUrl.indexOf("?") != -1) {
+//    	 var getSearch = strUrl.split("=");
+//    	 var thispage = getSearch[1]
+// 	}
+
+// 	console.log(thispage)
+// 	$('.button-group').find(thispage).addClass('is-checked');
+
+// 	$grid.isotope({ filter: thispage });
+
+// }());
+
+
+
+
 
 
 	$('#filters').on( 'click', 'div', function() {
@@ -62,19 +80,6 @@ $(document).ready(function(){
 	  };
 	}
 
-
-
-	var strUrl = location.search;
-		if (strUrl.indexOf("?") != -1) {
-	    var getSearch = strUrl.split("=");
-	    var thispage = getSearch[1]
-	}
-
-	// $grid.isotope({ filter: thispage});
-
-	console.log(thispage )
-	// console.log(getFilterValue)
-	$('.button-group').find(thispage).addClass('is-checked');
 
 
 
