@@ -6,6 +6,14 @@ $(document).ready(function(){
 	var filterValue;
 
 
+	var strUrl = location.search;
+	if (strUrl.indexOf("?") != -1) {
+   	 var getSearch = strUrl.split("=");
+   	 var thispage = getSearch[1]
+	}
+
+	console.log(thispage)
+
 	// init Isotope
 	var $grid = $('.grid').isotope({
 	  itemSelector: '.element_item',
@@ -14,35 +22,26 @@ $(document).ready(function(){
 	    var $this = $(this);
 	    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
 	    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
-	    return searchResult && buttonResult;
+	    var thisPage = thispage ? $this.is( thispage ) : true;
+
+	    // console.log(buttonResult)
+	    return searchResult && buttonResult //&& thisPage;
 	  }
 	});
 
 
-
-// (function(){
-//   	var strUrl = location.search;
-// 	if (strUrl.indexOf("?") != -1) {
-//    	 var getSearch = strUrl.split("=");
-//    	 var thispage = getSearch[1]
-// 	}
-
-// 	console.log(thispage)
-// 	$('.button-group').find(thispage).addClass('is-checked');
-
-// 	$grid.isotope({ filter: thispage });
-
-// }());
-
-
+	// console.log(thispage)
+	// console.log(buttonFilter)
+	// console.log(thispage === buttonFilter)
 
 
 
 
 	$('#filters').on( 'click', 'div', function() {
-	  buttonFilter = $( this ).attr('data-filter');
-	  console.log(buttonFilter);
-	  $grid.isotope();
+	  	buttonFilter = $( this ).attr('data-filter');
+
+	  	console.log(buttonFilter);
+	  	$grid.isotope();
 	});
 
 
@@ -80,13 +79,7 @@ $(document).ready(function(){
 	  };
 	}
 
-
-
-
-
-
-
-
+	$('.button-group').find(thispage).addClass('is-checked');
 
 
 
