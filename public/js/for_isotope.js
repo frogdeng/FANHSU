@@ -4,6 +4,7 @@ $(document).ready(function(){
 	var qsRegex;
 	var buttonFilter;
 	var filterValue;
+	var $selects = $('#form-ui select');
 
 
 	var strUrl = location.search;
@@ -12,7 +13,8 @@ $(document).ready(function(){
    	 var thispage = getSearch[1]
 	}
 
-	console.log(thispage)
+	// console.log(thispage)
+
 
 	// init Isotope
 	var $grid = $('.grid').isotope({
@@ -25,22 +27,23 @@ $(document).ready(function(){
 	    var thisPage = thispage ? $this.is( thispage ) : true;
 
 	    // console.log(buttonResult)
-	    return searchResult && buttonResult //&& thisPage;
+	    return searchResult && buttonResult  && thisPage;
 	  }
 	});
 
 
-	// console.log(thispage)
-	// console.log(buttonFilter)
-	// console.log(thispage === buttonFilter)
 
 
+	console.log(thispage)
 
 
 	$('#filters').on( 'click', 'div', function() {
-	  	buttonFilter = $( this ).attr('data-filter');
 
-	  	console.log(buttonFilter);
+		thispage = '*'
+		console.log(thispage)
+
+	  	buttonFilter = $( this ).attr('data-filter');
+	  	// console.log(buttonFilter);
 	  	$grid.isotope();
 	});
 
