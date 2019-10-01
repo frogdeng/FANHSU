@@ -2580,13 +2580,15 @@ a {
     display: flex;
     -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
     -ms-flex-align: center;
     align-items: center; }
   .about .members .our_members .to_flex .our_members_item {
     width: 25%;
-    margin-right: 10px;
+    margin-right: 0px;
     background: #979797;
     position: relative;
     margin-bottom: 10px; }
