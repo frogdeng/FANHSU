@@ -181,6 +181,26 @@
             "photo_index": "img/works_index/interiordesign_09.jpg",
             "link": "portfolio_b_interiordesign.html?=interiordesign_09"
         }
+    ],
+    "interiordesign_10": [
+        {
+            "photo_1": "img/works/interiordesign/interiordesign_10/1.png",
+            "photo_2": "img/works/interiordesign/interiordesign_10/2.png",
+            "photo_3": "img/works/interiordesign/interiordesign_10/3.png",
+            "photo_4": "img/works/interiordesign/interiordesign_10/4.png",
+            "photo_5": "img/works/interiordesign/interiordesign_10/5.png",
+            "photo_6": "img/works/interiordesign/interiordesign_10/6.png",
+            "photo_7": "img/works/interiordesign/interiordesign_10/7.png",
+            "photo_8": "img/works/interiordesign/interiordesign_10/8.png",
+            "photo_9": "img/works/interiordesign/interiordesign_10/9.png",
+
+            "thistitle": "合慶火龍果園區",
+            "intro": "",
+            "description": " <p> <\/p>\n  ",
+
+            "photo_index": "img/works_index/interiordesign_10.jpg",
+            "link": "portfolio_b_interiordesign.html?=interiordesign_10"
+        }
     ]
 
 }
