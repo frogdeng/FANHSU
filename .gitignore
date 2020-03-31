@@ -3,3 +3,4 @@ wiki/
 report/
 sandbox/
 node_modules/
+package-lock.json
