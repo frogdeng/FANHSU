@@ -29,7 +29,8 @@ a:focus {
   outline: thin dotted; }
 
 a:active, a:hover {
-  outline: 0; }
+  outline: 0;
+  background: none; }
 
 abbr[title] {
   border-bottom: 1px dotted; }
@@ -3320,7 +3321,13 @@ a {
     -ms-flex-align: center;
     align-items: center; }
   .desktop_aside ul li .m-first .circle i {
-    color: #FFF; } }
+    color: #FFF; }
+  .desktop_aside ul li .m-first .yahoo {
+    width: 30px;
+    height: 30px; }
+  .desktop_aside ul li .m-first .yahoo img {
+    display: block;
+    width: 100%; } }
 
 @media (min-width: 991px) {
   .desktop_aside {
@@ -3381,7 +3388,13 @@ a {
     -ms-flex-align: center;
     align-items: center; }
   .desktop_aside ul li .m-first .circle i {
-    color: #FFF; } }
+    color: #FFF; }
+  .desktop_aside ul li .m-first .yahoo {
+    width: 30px;
+    height: 30px; }
+  .desktop_aside ul li .m-first .yahoo img {
+    display: block;
+    width: 100%; } }
 
 .hamburg-open {
   left: -2px !important;
@@ -3551,6 +3564,13 @@ a {
     color: #000;
     font-size: 13px;
     margin: 0; }
+  .inside_header .for_flex .inside_menu_wh ul .yahoo-btn {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 0 30px; }
+  .inside_header .for_flex .inside_menu_wh ul .yahoo-btn img {
+    display: block; }
   .inside_header .for_flex .inside_menu_bk ul {
     display: -ms-flexbox;
     display: flex;
@@ -3583,7 +3603,14 @@ a {
   .inside_header .for_flex .inside_menu_bk ul .fb-btn i {
     color: #FFF;
     font-size: 13px;
-    margin: 0; } }
+    margin: 0; }
+  .inside_header .for_flex .inside_menu_bk ul .yahoo-btn {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 0 30px; }
+  .inside_header .for_flex .inside_menu_bk ul .yahoo-btn img {
+    display: block; } }
 
 .menu_wrapper {
   background: #fcfcfc;
