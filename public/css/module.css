@@ -2067,6 +2067,23 @@ a {
     width: 100%;
     display: block;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14); }
+  .portfolio_layout_module .back_news {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 30px auto;
+    background: #dee100;
+    border-radius: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    font-weight: 300; }
   .portfolio_layout_module .grid-container {
     display: -ms-grid;
     display: grid;
@@ -2709,12 +2726,15 @@ a {
     background: #ddd;
     margin: 30px 0; }
   .news .grid-container .detail_des h5 {
-    font-size: 20px;
-    color: #222; }
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 3px; }
   .news .grid-container .detail_des h6 {
     font-size: 14px;
     color: #222;
-    font-weight: 100; }
+    font-weight: 100;
+    margin-top: 20px;
+    letter-spacing: 3px; }
   .news .grid-container .detail_des p {
     font-size: 16px;
     color: #222;
@@ -2818,12 +2838,15 @@ a {
     background: #ddd;
     margin: 30px 0; }
   .news .grid-container .detail_des h5 {
-    font-size: 20px;
-    color: #222; }
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 3px; }
   .news .grid-container .detail_des h6 {
     font-size: 14px;
     color: #222;
-    font-weight: 100; }
+    font-weight: 100;
+    margin-top: 20px;
+    letter-spacing: 3px; }
   .news .grid-container .detail_des p {
     font-size: 16px;
     color: #222;
