@@ -2738,7 +2738,8 @@ a {
   .news .grid-container .detail_des p {
     font-size: 16px;
     color: #222;
-    font-weight: 100;
+    font-weight: 400;
+    line-height: 1.6;
     margin-bottom: 5px; }
   .news .grid-container .others {
     -ms-grid-column: 1;
@@ -2850,7 +2851,8 @@ a {
   .news .grid-container .detail_des p {
     font-size: 16px;
     color: #222;
-    font-weight: 100;
+    font-weight: 400;
+    line-height: 1.6;
     margin-bottom: 5px; }
   .news .grid-container .detail_des .gotoyy {
     margin-top: 50px;
