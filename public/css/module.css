@@ -2205,9 +2205,9 @@ a {
     margin-bottom: 50px; }
   .about .about_description img {
     display: block;
-    width: 100%;
+    width: 40%;
     margin-top: 15px;
-    margin-bottom: 30px; }
+    margin-bottom: 80px; }
   .about .about_description .brand_concept {
     width: 100%; }
   .about .about_description .brand_concept img {
@@ -2443,7 +2443,8 @@ a {
     margin-bottom: 150px; }
   .about .about_description img {
     display: block;
-    width: 45%;
+    width: 20%;
+    margin-left: 40px;
     margin-top: 15px;
     margin-bottom: 30px; }
   .about .about_description .brand_concept {
@@ -2886,7 +2887,8 @@ a {
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    text-align: right; }
   .news .grid-container .others .ll {
     width: 40%;
     height: 1px;
@@ -2895,6 +2897,28 @@ a {
     font-size: 20px;
     color: #000;
     margin: 0 20px; } }
+
+@media (min-width: 0) and (max-width: 990px) {
+  .declare {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; }
+  .declare:after {
+    content: " ";
+    display: block;
+    clear: both; } }
+
+@media (min-width: 991px) {
+  .declare {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; }
+  .declare:after {
+    content: " ";
+    display: block;
+    clear: both; } }
 
 body {
   background: #000;

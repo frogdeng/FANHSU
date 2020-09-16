@@ -1473,9 +1473,9 @@ $portfolio_pad: 6 (80px 40px) split
 			margin-bottom: 50px
 			img
 				display: block
-				width: 100%
+				width: 40%
 				margin-top: 15px
-				margin-bottom: 30px
+				margin-bottom: 80px
 
 			.brand_concept
 				width: 100%
@@ -1695,7 +1695,8 @@ $portfolio_pad: 6 (80px 40px) split
 			margin-bottom: 150px
 			img
 				display: block
-				width: 45%
+				width: 20%
+				margin-left: 40px
 				margin-top: 15px
 				margin-bottom: 30px
 
@@ -2118,6 +2119,7 @@ $portfolio_pad: 6 (80px 40px) split
 				justify-content: space-between
 				align-items: center
 				margin-bottom: 30px
+				text-align: right
 				.ll
 					width: 40%
 					height: 1px
@@ -2131,4 +2133,12 @@ $portfolio_pad: 6 (80px 40px) split
 
 
 
+.declare
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		margin-bottom: 50px
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		margin-bottom: 50px
 
